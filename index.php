@@ -331,111 +331,83 @@ ob_start();
         <div class="row">
             <div class="col-xl-4">
                 <div class="choose-style1_image-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    <img src="assets/images/resources/choose-style1-img.jpg" alt="">
-                    <div class="round-box js-tilt paroller">
-                        <h3>No<br> Minimum<br> Order</h3>
-                    </div>
+                    <img src="assets/images/resources/choose-style1-img.png" alt="">
                 </div>
             </div>
             <div class="col-xl-8">
                 <div class="choose-style1-content">
                     <div class="sec-title">
                         <div class="sub-title">
-                            <h5>Why Aguapure</h5>
+                            <h5>Why Choose NORÉ</h5>
                         </div>
-                        <h2>You’ll love fresh <br>taste of our natural water</h2>
-                        <div class="decor">
-                            <img src="assets/images/shape/decor.png" alt="">
-                        </div>
+                        <h2 class="text-white">Pure Water. <br>Trusted Every Day.</h2>
                     </div>
-                    <div class="inner-content">
+
+                    <div class="inner-content text-white">
+
                         <div class="shape">
-                            <img src="assets/images/shape/choose-style1-shape-1.png" alt="">
+                            <img src="assets/images/shape/choose-style1-shape-1.png"
+                                alt="" class="wow fadeInUp"
+                                data-wow-delay="100ms"
+                                data-wow-duration="1500ms">
                         </div>
+
                         <ul class="clearfix">
+
                             <li class="wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                                 <div class="icon">
                                     <div class="icon-bg"
-                                        style="background-image: url(assets/images/shape/thm-shape-1.png);">
-                                    </div>
+                                        style="background-image:url(assets/images/shape/thm-shape-1.png);"></div>
                                     <span class="icon-water-drop-1"></span>
                                 </div>
                                 <div class="text">
-                                    <h3>High Quality</h3>
-                                    <p>Take a trivial example which ever undertake laboris physical some
-                                        advantage.</p>
+                                    <h3>100% Pure</h3>
+                                    <p>Advanced purification ensures every bottle delivers clean, refreshing hydration.</p>
                                 </div>
                             </li>
+
                             <li class="wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                 <div class="icon">
                                     <div class="icon-bg"
-                                        style="background-image: url(assets/images/shape/thm-shape-1.png);">
-                                    </div>
-                                    <span class="icon-write-message"></span>
-                                </div>
-                                <div class="text">
-                                    <h3>No Contract</h3>
-                                    <p>Righteous indignation & dislike men who are beguiled the charms blinded
-                                        desire.</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="clearfix">
-                            <li class="wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div class="icon">
-                                    <div class="icon-bg"
-                                        style="background-image: url(assets/images/shape/thm-shape-1.png);">
-                                    </div>
+                                        style="background-image:url(assets/images/shape/thm-shape-1.png);"></div>
                                     <span class="icon-shield"></span>
                                 </div>
                                 <div class="text">
-                                    <h3>Reliable</h3>
-                                    <p>Equal blame belongs those who fail in their duty through weaknes of
-                                        shrinking.</p>
+                                    <h3>Safe & Hygienic</h3>
+                                    <p>Sealed with strict hygiene standards to preserve freshness and purity.</p>
                                 </div>
                             </li>
-                            <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+
+                        </ul>
+
+                        <ul class="clearfix">
+
+                            <li class="wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="icon">
                                     <div class="icon-bg"
-                                        style="background-image: url(assets/images/shape/thm-shape-1.png);">
-                                    </div>
+                                        style="background-image:url(assets/images/shape/thm-shape-1.png);"></div>
                                     <span class="icon-medal"></span>
                                 </div>
                                 <div class="text">
-                                    <h3>Certified</h3>
-                                    <p>Take a trivial example which ever undertake laboris physical some
-                                        advantage.</p>
+                                    <h3>High Quality</h3>
+                                    <p>Every bottle undergoes rigorous quality checks for consistent taste and safety.</p>
                                 </div>
                             </li>
-                        </ul>
-                        <!-- <ul class="clearfix">
-                            <li class="wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
+
+                            <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="icon">
                                     <div class="icon-bg"
-                                        style="background-image: url(assets/images/shape/thm-shape-1.png);">
-                                    </div>
-                                    <span class="icon-hand"></span>
-                                </div>
-                                <div class="text">
-                                    <h3>Affordable</h3>
-                                    <p>Righteous indignation & dislike men who are beguiled the charms blinded
-                                        desire.</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div class="icon">
-                                    <div class="icon-bg"
-                                        style="background-image: url(assets/images/shape/thm-shape-1.png);">
-                                    </div>
+                                        style="background-image:url(assets/images/shape/thm-shape-1.png);"></div>
                                     <span class="icon-truck"></span>
                                 </div>
                                 <div class="text">
                                     <h3>Fast Delivery</h3>
-                                    <p>Equal blame belongs those who fail in their duty through weaknes of
-                                        shrinking.</p>
+                                    <p>Timely doorstep delivery for homes, offices, and businesses whenever you need it.</p>
                                 </div>
                             </li>
-                        </ul> -->
+
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -445,289 +417,340 @@ ob_start();
 </section>
 <!--End Choose Style1 Area-->
 
-<!--Start Features Style1 Area-->
-<section class="features-style1-area">
-    <div class="auto-container">
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="features-style1_one-content">
-                    <div class="features-style1_one-content-bg"
-                        style="background-image: url(assets/images/resources/features-style1_one-content-bg.jpg);">
-                    </div>
-                    <div class="inner-content">
-                        <div class="sec-title">
-                            <div class="sub-title">
-                                <h5>Water & You</h5>
-                            </div>
-                            <h2>Essential <br>for Healthy Life</h2>
-                            <div class="decor">
-                                <img src="assets/images/shape/decor.png" alt="">
-                            </div>
-                        </div>
-                        <div class="text">
-                            <p>Righteous indignation & dislike men who are beguiled the charms.</p>
-                            <ul>
-                                <li><span class="icon-water-drop"></span>Carrying nutrients & oxygen</li>
-                                <li><span class="icon-water-drop"></span>Aiding digestion</li>
-                                <li><span class="icon-water-drop"></span>Normalizing blood pressure</li>
-                                <li><span class="icon-water-drop"></span>Stabilizing the heartbeat</li>
-                            </ul>
-                            <div class="btns-box">
-                                <a class="btn-one" href="#">
-                                    <div class="round"></div>
-                                    <span class="txt">View All</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3">
-                <div class="features-style1_single-box">
-                    <div class="features-style1_single-box-bg"
-                        style="background-image: url(assets/images/resources/features-style1_single-box-bg-1.jpg);">
-                    </div>
-                    <div class="inner-content">
-                        <h2>Healthy Water for<br> Your Staff</h2>
-                        <p>Water makes up over 70% of our bodies and is essential for our good health.</p>
-                        <div class="btn-box">
-                            <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3">
-                <div class="features-style1_single-box style2">
-                    <div class="features-style1_single-box-bg"
-                        style="background-image: url(assets/images/resources/features-style1_single-box-bg-2.jpg);">
-                    </div>
-                    <div class="inner-content">
-                        <h2>Offers<br> Rent, Buy or Hire</h2>
-                        <p>All prices are Tax inclusive & a minimum order of 2 water bottles per month.</p>
-                        <div class="btn-box">
-                            <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!--End Features Style1 Area-->
-
-
 <!--Start Working process area -->
-<section class="working-process-area">
-    <div class="working-process-area-bg"
-        style="background-image: url(assets/images/parallax-background/working-process-area-bg.jpg);"></div>
+<section class="work-process-section" data-gold="true">
+    <div class="nore-bubble-wrap">
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+    </div>
     <div class="container">
         <div class="sec-title text-center">
             <div class="sub-title">
-                <h5>How we Work?</h5>
+                <h5>Our Products</h5>
             </div>
-            <h2 class="clr_white">A higher standard of water<br> delivered process</h2>
-            <div class="decor">
-                <img src="assets/images/shape/decor.png" alt="">
+            <h2>Pure Water for Every Need</h2>
+            <p>
+            <div class="text mt-2">
+                <p>From compact 250 mL bottles to convenient 1000 mL packs, NORÉ delivers
+                    premium packaged drinking water with exceptional purity, refreshing taste,
+                    and trusted quality for every occasion.</p>
             </div>
+            </p>
         </div>
-        <div class="row">
-            <!--Start Working process Single-->
-            <div class="col-xl-4">
-                <div class="single-working-process wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="counting-box clearfix">
-                        <div class="text">
-                            <h6>Step</h6>
-                        </div>
-                        <div class="count"></div>
-                    </div>
-                    <div class="content">
-                        <h3>Order Your Bottle</h3>
-                        <p>Foresee the pain and trouble that are bound to ensue and equal blame fail.</p>
-                    </div>
-                    <div class="icon">
-                        <span class="icon-order"></span>
-                    </div>
-                </div>
-            </div>
-            <!--End Working process Single-->
-            <!--Start Working process Single-->
-            <div class="col-xl-4">
-                <div class="single-working-process wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="counting-box clearfix">
-                        <div class="text">
-                            <h6>Step</h6>
-                        </div>
-                        <div class="count"></div>
-                    </div>
-                    <div class="content">
-                        <h3>Touchless Packing</h3>
-                        <p>Our power of choice is untrammelled and when nothing prevents our being able.</p>
-                    </div>
-                    <div class="icon">
-                        <span class="icon-package"></span>
-                    </div>
-                </div>
-            </div>
-            <!--End Working process Single-->
-            <!--Start Working process Single-->
-            <div class="col-xl-4">
-                <div class="single-working-process wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                    <div class="counting-box clearfix">
-                        <div class="text">
-                            <h6>Step</h6>
-                        </div>
-                        <div class="count"></div>
-                    </div>
-                    <div class="content">
-                        <h3>On Time Deliver</h3>
-                        <p>Business will frequently occur that who pleasures have to be repudiated & accepted.
-                        </p>
-                    </div>
-                    <div class="icon">
-                        <span class="icon-truck-1"></span>
-                    </div>
-                </div>
-            </div>
-            <!--End Working process Single-->
 
+        <!-- steps grid -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-6 g-4 gold-track">
+            <!-- connector line (desktop only) -->
+            <div class="connector-line" aria-hidden="true"></div>
+
+            <!-- Step 1 -->
+            <div class="col step-item" data-step="1">
+                <div class="gold-card">
+                    <div class="step-icon"><i class="bi bi-droplet"></i></div>
+                    <div class="step-number">01</div>
+                    <div class="step-title">Source Water</div>
+                    <p class="step-desc">Pristine springs, rich in minerals</p>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col step-item" data-step="2">
+                <div class="gold-card">
+                    <div class="step-icon"><i class="bi bi-funnel"></i></div>
+                    <div class="step-number">02</div>
+                    <div class="step-title">Multi-Stage Filtration</div>
+                    <p class="step-desc">Sediment &amp; carbon filters</p>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col step-item" data-step="3">
+                <div class="gold-card">
+                    <div class="step-icon"><i class="bi bi-arrow-repeat"></i></div>
+                    <div class="step-number">03</div>
+                    <div class="step-title">RO Purification</div>
+                    <p class="step-desc">Removes 99% of dissolved solids</p>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="col step-item" data-step="4">
+                <div class="gold-card">
+                    <div class="step-icon"><i class="bi bi-sun"></i></div>
+                    <div class="step-number">04</div>
+                    <div class="step-title">UV Treatment</div>
+                    <p class="step-desc">Neutralises bacteria &amp; viruses</p>
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="col step-item" data-step="5">
+                <div class="gold-card">
+                    <div class="step-icon"><i class="bi bi-wind"></i></div>
+                    <div class="step-number">05</div>
+                    <div class="step-title">Ozone Treatment</div>
+                    <p class="step-desc">Oxidises organics, eliminates odours</p>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="col step-item" data-step="6">
+                <div class="gold-card">
+                    <div class="step-icon"><i class="bi bi-check-circle"></i></div>
+                    <div class="step-number">06</div>
+                    <div class="step-title">Quality Testing</div>
+                    <p class="step-desc">Rigorous lab standards</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 <!--End Working process area -->
 
-<!--Start Contact Style1 Area-->
-<section class="contact-style1-area">
-    <div class="contact-form-box1_bg" style="background-image: url(assets/images/resources/contact-form-box1_bg.jpg);">
-    </div>
-    <div class="thm-round-box1">
-        <h3>Top<br> Customer<br> Support</h3>
-    </div>
-    <div class="gray-bg"></div>
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xl-6">
-                <div class="contact-style1-content">
-                    <div class="shape1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="2000">
-                        <img class="paroller-2" src="assets/images/shape/thm-shape-2.png" alt="">
-                    </div>
-                    <div class="sec-title">
-                        <div class="sub-title">
-                            <h5>Get In Touch</h5>
-                        </div>
-                        <h2>Love to assist <br>with your enquiry!</h2>
-                        <div class="decor">
-                            <img src="assets/images/shape/decor.png" alt="">
-                        </div>
-                    </div>
-                    <div class="inner-content">
-                        <div class="quick-contact-box">
-                            <div class="icon">
-                                <span class="icon-calling"></span>
-                            </div>
-                            <div class="title">
-                                <h3>Quick Contact</h3>
-                                <h2><a href="tel:+50033333">+1-800-500-333-33</a></h2>
-                            </div>
-                        </div>
-                        <div class="text">
-                            <p>Please feel free to call us with any questions or to set<br> up your account.</p>
-                        </div>
-                        <div class="btn-box">
-                            <a class="btn-one" href="#">
+<!--Start Quality Section area -->
+<section class="quality-section">
+    <div class="row g-0">
+        <div class="col-lg-5 quality-left"></div>
+        <div class="col-lg-7 quality-right px-4 px-md-5 py-5">
+            <div class="row g-0">
+                <div class="col-lg-6 quality-content">
+                    <span class="quality-tag">Our Quality Promise</span>
+                    <h2 class="quality-heading">Every Drop Meets<br>Our Standards.</h2>
+                    <p class="quality-desc">
+                        From advanced purification to controlled bottling, rigorous hygiene and quality testing —
+                        we ensure freshness, purity and consistency in every bottle.
+                    </p>
+                    <div class="header-right_buttom m-0">
+                        <div class="btns-box">
+                            <a class="btn-one" href="about.html">
                                 <div class="round"></div>
-                                <span class="txt">Call Back</span>
+                                <span class="txt">Explore More</span>
                             </a>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 quality-features mt-4 mt-lg-0">
+
+                    <div class="feature-item wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-droplet-half"></i>
+                        </div>
+                        <span class="feature-text">Advanced Purification</span>
+                    </div>
+
+                    <div class="feature-item wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <span class="feature-text">Hygiene Controlled</span>
+                    </div>
+
+                    <div class="feature-item wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-patch-check"></i>
+                        </div>
+                        <span class="feature-text">Quality Testing</span>
+                    </div>
+
+                    <div class="feature-item wow fadeInRight" data-wow-delay="700ms" data-wow-duration="1500ms">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <span class="feature-text">Reliable Delivery</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--End Quality Section area -->
+
+<!--Start Use Section area -->
+<section class="use-section">
+    <div class="nore-bubble-wrap">
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+    </div>
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="sub-title">
+                <h5>Made for Every Moment</h5>
             </div>
 
-            <div class="col-xl-6">
-                <div class="contact-form-box1">
-                    <div class="top-title">
-                        <h2>Enquire With Our Team</h2>
-                    </div>
-                    <form id="contact-form" name="contact_form" class="default-form1" action="#" method="post">
-                        <div class="input-box">
-                            <input type="text" name="form_name" value="" placeholder="Your Name" required="">
-                            <div class="icon">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="input-box">
-                            <input type="email" name="form_email" value="" placeholder="Email Address" required="">
-                            <div class="icon">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="input-box">
-                            <div class="select-box">
-                                <div class="round-shape"></div>
-                                <select class="wide">
-                                    <option data-display="Service You Need">Service You Need</option>
-                                    <option value="1">Bottled Water</option>
-                                    <option value="2">Water Dispenser</option>
-                                    <option value="3">Water Trailers</option>
-                                </select>
-                            </div>
-                            <div class="icon">
-                                <i class="fa fa-cog" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="input-box">
-                            <input type="text" name="form_address" value="" placeholder="Your Address">
-                            <div class="icon">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="button-box">
-                            <div class="left">
-                                <div class="checked-box1">
-                                    <input type="checkbox" name="skipper1" id="skipper" checked="">
-                                    <label for="skipper"><span></span>I agree to receive updates<br> from
-                                        Aguapure</label>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <button class="btn-one" type="submit" data-loading-text="Please wait...">
-                                    <span class="round"></span>
-                                    <span class="txt">Continue</span>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+            <h2>Refreshing Every Moment</h2>
 
+            <div class="text mt-2">
+                <p>Whether it's your daily routine, office hours, special celebrations, or premium hospitality, NORÉ delivers pure refreshment wherever life takes you, ensuring trusted quality, lasting freshness, and confidence in every single sip.</p>
+            </div>
+        </div>
+
+        <div class="row pb-4">
+            <!-- Everyday -->
+            <div class="col-6 col-lg-3">
+                <div class="use-card wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="use-photo" style="background-image:url('assets/images/use/everyday.jpg')">
+                        <div class="use-icon"><i class="bi bi-house-door-fill"></i></div>
+                    </div>
+                    <div class="use-body">
+                        <h3 class="use-label">EVERYDAY</h3>
+                        <p class="use-desc">Fresh hydration for your daily routine.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office -->
+            <div class="col-6 col-lg-3">
+                <div class="use-card wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="use-photo" style="background-image:url('assets/images/use/office.jpg')">
+                        <div class="use-icon"><i class="bi bi-briefcase-fill"></i></div>
+                    </div>
+                    <div class="use-body">
+                        <h3 class="use-label">OFFICE</h3>
+                        <p class="use-desc">Reliable hydration for modern workplaces.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Events -->
+            <div class="col-6 col-lg-3">
+                <div class="use-card wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
+                    <div class="use-photo" style="background-image:url('assets/images/use/event.jpg')">
+                        <div class="use-icon"><i class="bi bi-calendar-event-fill"></i></div>
+                    </div>
+                    <div class="use-body">
+                        <h3 class="use-label">EVENTS</h3>
+                        <p class="use-desc">Premium water for special occasions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hospitality -->
+            <div class="col-6 col-lg-3">
+                <div class="use-card wow fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <div class="use-photo" style="background-image:url('assets/images/use/hospitality.jpg')">
+                        <div class="use-icon"><i class="bi bi-building-fill"></i></div>
+                    </div>
+                    <div class="use-body">
+                        <h3 class="use-label">HOSPITALITY</h3>
+                        <p class="use-desc">For hotels, restaurants and premium spaces.</p>
+                    </div>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
-<!--End Contact Style1 Area-->
+<!--End Use Section area -->
 
+<!--Start Water Solutions area -->
+<section class="solutions-section">
+    <div class="container">
+        <div class="row g-0 align-items-center">
+
+            <div class="col-lg-7 px-4">
+                <div class="sec-title pb-0">
+                    <div class="sub-title">
+                        <h5>Trusted Purity. Every Drop.</h5>
+                    </div>
+                </div>
+
+                <h2 class="solutions-heading">
+                    Water Solutions For<br>Homes &amp; Businesses
+                </h2>
+
+                <p class="solutions-desc">
+                    Premium packaged drinking water with trusted purity, hygienic bottling, and reliable supply for homes and businesses.
+                </p>
+
+                <div class="item-list">
+                    <div class="item-block">
+                        <div class="item-icon"><i class="bi bi-house-door-fill"></i></div>
+                        <span class="item-label">Homes</span>
+                    </div>
+
+                    <div class="item-block">
+                        <div class="item-icon"><i class="bi bi-building"></i></div>
+                        <span class="item-label">Offices</span>
+                    </div>
+
+                    <div class="item-block">
+                        <div class="item-icon"><i class="bi bi-cup-hot-fill"></i></div>
+                        <span class="item-label">Hotels &amp; Restaurants</span>
+                    </div>
+
+                    <div class="item-block">
+                        <div class="item-icon"><i class="bi bi-calendar-event-fill"></i></div>
+                        <span class="item-label">Events</span>
+                    </div>
+
+                    <div class="item-block">
+                        <div class="item-icon"><i class="bi bi-truck"></i></div>
+                        <span class="item-label">Corporate Supply</span>
+                    </div>
+                </div>
+
+                <div class="btn-group-solutions">
+                    <div class="header-right_buttom m-0">
+                        <div class="btns-box">
+                            <a class="btn-one" href="about.html">
+                                <div class="round"></div>
+                                <span class="txt">Explore More</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-outline-water">Talk To Our Team <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-5 solutions-photo wow fadeInUp"
+                data-wow-delay="100ms"
+                data-wow-duration="1500ms"></div>
+        </div>
+    </div>
+</section>
+<!--End Water Solutions area -->
 
 <!--Start Testimonials Style1 area -->
 <section class="testimonials-style1-area">
     <div class="container">
-
         <div class="sec-title text-center">
             <div class="sub-title">
                 <h5>Testimonials</h5>
             </div>
-            <h2>Here's what our customers<br> say about us</h2>
-            <div class="decor">
-                <img src="assets/images/shape/decor.png" alt="">
-            </div>
+            <h2>Here's what our customers</h2>
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="theme_carousel testimonials-carousel_1 owl-dot-style1 owl-theme owl-carousel"
-                    data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": false, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "1" }, "1200":{ "items" : "1" }}}'>
-                    <!--Start Single Testimonials Style1-->
+                <div class="theme_carousel testimonials-carousel_1 owl-dot-style1 owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": false, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "1" }, "1200":{ "items" : "1" }}}'>
                     <div class="single-testimonials-style1">
                         <div class="img-box">
                             <img src="assets/images/testimonial/testimonial-v1-1.jpg" alt="">
@@ -745,19 +768,15 @@ ob_start();
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     </ul>
                                 </div>
-                                <h3>I've had the Best Experience</h3>
-                                <p>We are extremely happy with Aguapure's service. They are very prompt. Billing
-                                    always correct. And they give plenty of notice of the next delivery it is
-                                    very easy.</p>
-                                <h4>Rodha Thelma, <span>California</span></h4>
+                                <h3>Excellent Customer Service</h3>
+                                <p>From ordering to delivery, everything is smooth. NORÉ has become our preferred drinking water brand.</p>
+                                <h4>Neha Gupta,</h4>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Testimonials Style1-->
-                    <!--Start Single Testimonials Style1-->
                     <div class="single-testimonials-style1">
                         <div class="img-box">
-                            <img src="assets/images/testimonial/testimonial-v1-2.jpg" alt="">
+                            <img src="assets/images/testimonial/testimonial-v1-1.jpg" alt="">
                             <div class="round-1"></div>
                             <div class="round-2"></div>
                         </div>
@@ -772,19 +791,15 @@ ob_start();
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     </ul>
                                 </div>
-                                <h3>Great Tasting Water & Awesome</h3>
-                                <p>Have used their service for five years & can say the service has always been
-                                    amazing. The delivery driver is friendly. The water tastes really good & we
-                                    recommend.</p>
-                                <h4>Lillian Grace, <span>California</span></h4>
+                                <h3>Fresh Water Every Time</h3>
+                                <p>NORÉ always delivers fresh, clean drinking water on time. The quality is excellent and perfect for our family.</p>
+                                <h4>Rohit Sharma,</h4>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Testimonials Style1-->
-                    <!--Start Single Testimonials Style1-->
                     <div class="single-testimonials-style1">
                         <div class="img-box">
-                            <img src="assets/images/testimonial/testimonial-v1-3.jpg" alt="">
+                            <img src="assets/images/testimonial/testimonial-v1-1.jpg" alt="">
                             <div class="round-1"></div>
                             <div class="round-2"></div>
                         </div>
@@ -799,19 +814,15 @@ ob_start();
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     </ul>
                                 </div>
-                                <h3>Team was Very Professional</h3>
-                                <p>I went to the Aguapure water office to speak with someone in person about
-                                    Aguapure services. The team was very professional and answered all my
-                                    questions. </p>
-                                <h4>Luke Nobert, <span>Los Angeles</span></h4>
+                                <h3>Reliable Office Supply</h3>
+                                <p>We use NORÉ for our office, and their doorstep delivery is always quick and hassle-free.</p>
+                                <h4>Priya Mehta,</h4>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Testimonials Style1-->
-                    <!--Start Single Testimonials Style1-->
                     <div class="single-testimonials-style1">
                         <div class="img-box">
-                            <img src="assets/images/testimonial/testimonial-v1-4.jpg" alt="">
+                            <img src="assets/images/testimonial/testimonial-v1-1.jpg" alt="">
                             <div class="round-1"></div>
                             <div class="round-2"></div>
                         </div>
@@ -826,16 +837,12 @@ ob_start();
                                         <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     </ul>
                                 </div>
-                                <h3>The Water is Delicious</h3>
-                                <p>I went to the Aguapure water office to speak with someone in person about
-                                    Aguapure services. The team was very professional and answered all my
-                                    questions. </p>
-                                <h4>Luke Nobert, <span>Los Angeles</span></h4>
+                                <h3>Pure Taste We Trust</h3>
+                                <p>The water tastes consistently pure, and the bottles are hygienically packed. Highly recommended.</p>
+                                <h4>Ankit Verma,</h4>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Testimonials Style1-->
-
 
                 </div>
             </div>
@@ -844,135 +851,52 @@ ob_start();
 </section>
 <!--End Testimonials Style1 area -->
 
-
-<!--Start Blog Style1 Area-->
-<section class="blog-style1-area">
+<!--Start Delivery Section area -->
+<section class="delivery-section">
     <div class="container">
+        <div class="row g-0 align-items-center">
 
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="blog-style1_top">
-                    <div class="sec-title">
-                        <div class="sub-title">
-                            <h5>Recent Blog Post</h5>
-                        </div>
-                        <h2>Our industry updates</h2>
-                        <div class="decor">
-                            <img src="assets/images/shape/decor.png" alt="">
-                        </div>
-                    </div>
-                    <div class="btns-box">
-                        <a class="btn-one" href="blog.html">
-                            <div class="round"></div>
-                            <span class="txt">More Post</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="col-lg-5 delivery-photo"></div>
 
-        <div class="row text-right-rtl">
-            <!--Start Single blog Style1-->
-            <div class="col-xl-4">
-                <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="assets/images/blog/blog-v1-1.jpg" alt="">
-                        </div>
-                        <div class="categories">
-                            <h6><i class="fa fa-folder"></i>Bottled Water</h6>
+            <div class="col-lg-7 px-4 px-md-5 py-5">
+                <h2 class="delivery-heading">Fresh Water,<br>Delivered to Your Door.</h2>
+
+                <div class="delivery-feature-list">
+                    <div class="delivery-feature">
+                        <div class="delivery-feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <div>
+                            <p class="delivery-feature-title mb-0">Fast Delivery</p>
+                            <p class="delivery-feature-sub">Quick &amp; reliable</p>
                         </div>
                     </div>
-                    <div class="text-holder">
-                        <h3 class="blog-title">
-                            <a href="blog-single.html">Packaged Water: <br> What Things to Consider?</a>
-                        </h3>
-                        <div class="meta-box">
-                            <ul class="meta-info">
-                                <li><i class="fa fa-calendar" aria-hidden="true"></i> May 10, 2023</li>
-                                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> By Shaw</a></li>
-                            </ul>
+
+                    <div class="delivery-feature">
+                        <div class="delivery-feature-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <p class="delivery-feature-title mb-0">Reliable Service</p>
+                            <p class="delivery-feature-sub">On time, every time</p>
                         </div>
-                        <div class="text">
-                            <p>That they cannot forest the pain trouble that are bound to ensue equal...</p>
-                        </div>
-                        <div class="btns-box">
-                            <a class="btn-two" href="blog-single.html"><span class="icon-right-arrow"></span>Read
-                                More</a>
+                    </div>
+
+                    <div class="delivery-feature">
+                        <div class="delivery-feature-icon"><i class="fa-solid fa-box-open"></i></div>
+                        <div>
+                            <p class="delivery-feature-title mb-0">Flexible Ordering</p>
+                            <p class="delivery-feature-sub">Your convenience</p>
                         </div>
                     </div>
                 </div>
+
+                <a href="#" class="btn-delivery">Check Delivery Area <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <!--End Single blog Style1-->
-            <!--Start Single blog Style1-->
-            <div class="col-xl-4">
-                <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="assets/images/blog/blog-v1-2.jpg" alt="">
-                        </div>
-                        <div class="categories">
-                            <h6><i class="fa fa-folder"></i>Bottled Water</h6>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <h3 class="blog-title">
-                            <a href="blog-single.html">Top Benefits of Having Our Mobile App</a>
-                        </h3>
-                        <div class="meta-box">
-                            <ul class="meta-info">
-                                <li><i class="fa fa-calendar" aria-hidden="true"></i> May 05, 2023</li>
-                                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> By Philips</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <p>To take a trivial example which of ever undertakes laborious...</p>
-                        </div>
-                        <div class="btns-box">
-                            <a class="btn-two" href="blog-single.html"><span class="icon-right-arrow"></span>Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single blog Style1-->
-            <!--Start Single blog Style1-->
-            <div class="col-xl-4">
-                <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="assets/images/blog/blog-v1-3.jpg" alt="">
-                        </div>
-                        <div class="categories">
-                            <h6><i class="fa fa-folder"></i>Bottled Water</h6>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <h3 class="blog-title">
-                            <a href="blog-single.html">Five Tips to Keep Your Body Hydrated</a>
-                        </h3>
-                        <div class="meta-box">
-                            <ul class="meta-info">
-                                <li><i class="fa fa-calendar" aria-hidden="true"></i> Apr 22, 2023</li>
-                                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> By Shaw</a></li>
-                            </ul>
-                        </div>
-                        <div class="text">
-                            <p>That they cannot forest the pain trouble that are bound to ensue equal...</p>
-                        </div>
-                        <div class="btns-box">
-                            <a class="btn-two" href="blog-single.html"><span class="icon-right-arrow"></span>Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single blog Style1-->
         </div>
     </div>
 </section>
-<!--End Blog Style1 Area-->
+<!--End Delivery Section area -->
+
+
+
+
 
 <?php
 $content = ob_get_clean();

@@ -13,9 +13,9 @@
 .footer {
     position: relative;
     display: block;
-    padding: 110px 0 93px;
+    padding: 80px 0 80px;
     z-index: 1;
-    background: #004da1;
+    background: #021334;
 }
 .single-footer-widget {
     position: relative;
@@ -119,6 +119,14 @@
     display: block;
     line-height: 36px;
 }
+footer h4,
+footer p,
+footer a{
+        color: #ccdbeb;
+}
+footer a:hover{
+        color: #fff;
+}
 .footer-widget-links ul li a{
     color: #ccdbeb;
     font-size: 16px;
@@ -206,10 +214,11 @@
 
 
 .footer-bottom{
+    border-top: 2px solid #ce9c4d;
     position: relative;
     display: block;
-    background: #02458d;
-    padding: 22px 0px 24px;
+    background: #4e191f;
+    padding: 15px 0px 15px;
 }
 .footer-bottom .bottom-inner{
     position: relative;
@@ -220,11 +229,11 @@
     display: block;
 }
 .footer-bottom .bottom-inner .copyright p{
-    color: #ccdbeb;
+    color: #f9fbfc;
     margin: 0;
 }
 .footer-bottom .bottom-inner .copyright p a{
-    color: var(--thm-primary);
+    color: #ce9c4d;
 }
 
 .footer-bottom .bottom-inner .footer-nav{
