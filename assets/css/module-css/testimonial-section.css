@@ -7,7 +7,7 @@
     position: relative;
     display: block;
     padding: 80px 0;
-    background: url(../../images/bg/shop-bg.jpg) center center / cover no-repeat;
+    /* background: url(../../images/bg/shop-bg.jpg) center center / cover no-repeat; */
     overflow: hidden;
 }
 

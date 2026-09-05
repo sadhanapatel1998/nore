@@ -117,7 +117,6 @@
     bottom: 0;
     right: 0;
     height: 50%;
-    background: #ecf2f6;
     z-index: -1;
 }
 
@@ -177,9 +176,9 @@
     position: relative;
     display: block;
 }
-.single-fact-counter-style2 .outer-box span{
+/* .single-fact-counter-style2 .outer-box span{
     display: none;
-}
+} */
 .single-fact-counter-style2 .outer-box span:before{
     position: relative;
     display: inline-block;

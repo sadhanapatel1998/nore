@@ -203,7 +203,8 @@ footer a:hover{
     padding-top: 29px;
 }
 .single-footer-widget-business-hours .btn-box a:after{
-    background: var(--thm-primary);
+    background: #021334;
+    border: 1px solid #fff;
 }
 .single-footer-widget-business-hours .btn-box a.btn-one .round{
     background: #5dbcdf;

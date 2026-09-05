@@ -9,8 +9,8 @@
     position: relative;
     display: block;
     overflow: hidden;
-    padding: 229px 0 124px;
-    margin-top: 50px;
+    padding: 175px 0 90px;
+    margin-top: 48px;
     z-index: 10;
 }
 .breadcrumb-area-bg{
@@ -61,7 +61,7 @@
     position: relative;
     display: inline-block;
     float: none;
-    color: var(--thm-gray);
+       color: #65cef5;
     font-size: 14px;
     line-height: 20px;
     font-weight: 700;
@@ -76,7 +76,7 @@
     margin: 0 4px;
 }
 .breadcrumb-menu ul li a {
-    color: var(--thm-gray);
+      color: #ce9c4d;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }

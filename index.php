@@ -64,7 +64,7 @@ ob_start();
                                     <div class="icon-bg-overlay"
                                         style="background-image: url(assets/images/shape/fact-counter-icon-bg-overlay.png);">
                                     </div>
-                                    <span class="icon-plastic-bottle"></span>
+                                    <span class="icon-water-drop-1"></span>
                                 </div>
 
                                 <div class="outer-box">
@@ -86,7 +86,7 @@ ob_start();
                                     <div class="icon-bg-overlay"
                                         style="background-image: url(assets/images/shape/fact-counter-icon-bg-overlay.png);">
                                     </div>
-                                    <span class="icon-rating"></span>
+                                    <span class="icon-medal"></span>
                                 </div>
 
                                 <div class="outer-box">
@@ -108,7 +108,7 @@ ob_start();
                                     <div class="icon-bg-overlay"
                                         style="background-image: url(assets/images/shape/fact-counter-icon-bg-overlay.png);">
                                     </div>
-                                    <span class="icon-businessman"></span>
+                                    <span class="icon-plastic-bottle"></span>
                                 </div>
 
                                 <div class="outer-box">
@@ -129,7 +129,7 @@ ob_start();
                                     <div class="icon-bg-overlay"
                                         style="background-image: url(assets/images/shape/fact-counter-icon-bg-overlay.png);">
                                     </div>
-                                    <span class="icon-map"></span>
+                                    <span class="icon-truck"></span>
                                 </div>
 
                                 <div class="outer-box">
@@ -176,9 +176,9 @@ ob_start();
                                     <div class="bottom-box">
                                         <div class="header-right_buttom m-0">
                                             <div class="btns-box">
-                                                <a class="btn-one" href="about.html">
+                                                <a class="btn-one" href="about-us.php">
                                                     <div class="round"></div>
-                                                    <span class="txt">Explore More</span>
+                                                    <span class="txt">More About Us</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -258,7 +258,7 @@ ob_start();
                                     <div class="btns-box">
                                         <a class="btn-one" href="about.html">
                                             <div class="round"></div>
-                                            <span class="txt">Explore More</span>
+                                            <span class="txt">Read More</span>
                                         </a>
                                     </div>
                                 </div>
@@ -284,7 +284,7 @@ ob_start();
                                     <div class="btns-box">
                                         <a class="btn-one" href="about.html">
                                             <div class="round"></div>
-                                            <span class="txt">Explore More</span>
+                                            <span class="txt">Read More</span>
                                         </a>
                                     </div>
                                 </div>
@@ -310,7 +310,7 @@ ob_start();
                                     <div class="btns-box">
                                         <a class="btn-one" href="about.html">
                                             <div class="round"></div>
-                                            <span class="txt">Explore More</span>
+                                            <span class="txt">Read More</span>
                                         </a>
                                     </div>
                                 </div>
@@ -535,9 +535,9 @@ ob_start();
                     </p>
                     <div class="header-right_buttom m-0">
                         <div class="btns-box">
-                            <a class="btn-one" href="about.html">
+                            <a class="btn-one" href="contact-us.php">
                                 <div class="round"></div>
-                                <span class="txt">Explore More</span>
+                                <span class="txt">Get Appointment</span>
                             </a>
                         </div>
                     </div>
@@ -722,13 +722,13 @@ ob_start();
                 <div class="btn-group-solutions">
                     <div class="header-right_buttom m-0">
                         <div class="btns-box">
-                            <a class="btn-one" href="about.html">
+                            <a class="btn-one" href="contact-us.php">
                                 <div class="round"></div>
-                                <span class="txt">Explore More</span>
+                                <span class="txt">Contact Now</span>
                             </a>
                         </div>
                     </div>
-                    <a href="#" class="btn-outline-water">Talk To Our Team <i class="bi bi-arrow-right"></i></a>
+                    <a href="tel:917838230000" class="btn-outline-water">Talk To Our Team <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-5 solutions-photo wow fadeInUp"
@@ -741,6 +741,23 @@ ob_start();
 
 <!--Start Testimonials Style1 area -->
 <section class="testimonials-style1-area">
+    <div class="nore-bubble-wrap">
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+        <span class="nore-bubble"></span>
+    </div>
     <div class="container">
         <div class="sec-title text-center">
             <div class="sub-title">
@@ -856,14 +873,19 @@ ob_start();
     <div class="container">
         <div class="row g-0 align-items-center">
 
-            <div class="col-lg-5 delivery-photo"></div>
+            <div class="col-lg-5 delivery-photo wow fadeInRight"
+                data-wow-delay="100ms"
+                data-wow-duration="1500ms"></div>
 
-            <div class="col-lg-7 px-4 px-md-5 py-5">
+            <div class="col-lg-7 px-4 px-md-5">
                 <h2 class="delivery-heading">Fresh Water,<br>Delivered to Your Door.</h2>
 
                 <div class="delivery-feature-list">
+
                     <div class="delivery-feature">
-                        <div class="delivery-feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <div class="delivery-feature-icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
                         <div>
                             <p class="delivery-feature-title mb-0">Fast Delivery</p>
                             <p class="delivery-feature-sub">Quick &amp; reliable</p>
@@ -871,7 +893,9 @@ ob_start();
                     </div>
 
                     <div class="delivery-feature">
-                        <div class="delivery-feature-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="delivery-feature-icon">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
                         <div>
                             <p class="delivery-feature-title mb-0">Reliable Service</p>
                             <p class="delivery-feature-sub">On time, every time</p>
@@ -879,24 +903,30 @@ ob_start();
                     </div>
 
                     <div class="delivery-feature">
-                        <div class="delivery-feature-icon"><i class="fa-solid fa-box-open"></i></div>
+                        <div class="delivery-feature-icon">
+                            <i class="bi bi-box-seam"></i>
+                        </div>
                         <div>
                             <p class="delivery-feature-title mb-0">Flexible Ordering</p>
                             <p class="delivery-feature-sub">Your convenience</p>
                         </div>
                     </div>
+
                 </div>
 
-                <a href="#" class="btn-delivery">Check Delivery Area <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="header-right_buttom m-0">
+                    <div class="btns-box">
+                        <a class="btn-one" href="contact.php">
+                            <div class="round"></div>
+                            <span class="txt">Get In Touch</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <!--End Delivery Section area -->
-
-
-
-
 
 <?php
 $content = ob_get_clean();

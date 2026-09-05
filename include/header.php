@@ -53,7 +53,7 @@
 
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="assets/images/logo/logo.png" alt="NORÉ Logo">
                         </a>
                     </div>
@@ -77,11 +77,11 @@
                                 <ul class="navigation clearfix">
 
                                     <li class="current">
-                                        <a href="index.html"><span>Home</span></a>
+                                        <a href="index.php"><span>Home</span></a>
                                     </li>
 
                                     <li>
-                                        <a href="about.html"><span>About</span></a>
+                                        <a href="about-us.php"><span>About</span></a>
                                     </li>
 
                                     <li class="dropdown">
@@ -90,20 +90,19 @@
                                             <li><a href="#">250 ml Bottle</a></li>
                                             <li><a href="#">500 ml Bottle</a></li>
                                             <li><a href="#">1 Litre Bottle</a></li>
-                                            <li><a href="#">2 Litre Bottle</a></li>
                                         </ul>
                                     </li>
 
                                     <li>
-                                        <a href="gallery.html"><span>Gallery</span></a>
+                                        <a href="gallery.php"><span>Gallery</span></a>
                                     </li>
 
                                     <li>
-                                        <a href="distributor.html"><span>Distributor</span></a>
+                                        <a href="distributor.php"><span>Distributor</span></a>
                                     </li>
 
                                     <li>
-                                        <a href="contact.html"><span>Contact</span></a>
+                                        <a href="contact.php"><span>Contact</span></a>
                                     </li>
 
                                 </ul>
@@ -115,7 +114,7 @@
 
                     <div class="header-right_buttom">
                         <div class="btns-box">
-                            <a class="btn-one" href="contact.html">
+                            <a class="btn-one" href="contact-us.php">
                                 <div class="round"></div>
                                 <span class="txt">Order Now</span>
                             </a>
@@ -134,7 +133,7 @@
             <div class="clearfix">
 
                 <div class="logo float-left">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="assets/images/logo/logo.png" alt="NORÉ Logo">
                     </a>
                 </div>
@@ -160,7 +159,7 @@
         <nav class="menu-box">
 
             <div class="nav-logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="assets/images/logo/logo.png" alt="NORÉ Logo">
                 </a>
             </div>
