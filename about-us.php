@@ -270,7 +270,7 @@ ob_start();
                                     <span class="plus">+</span>
                                 </div>
                                 <div class="title">
-                                    <h6>Delivery Areas</h6>
+                                    <h6>Delivery Areassss</h6>
                                 </div>
                             </div>
                         </li>
