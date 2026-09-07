@@ -53,13 +53,15 @@ ob_start();
                                             processes, ensuring every bottle is safe, refreshing, and consistent in
                                             quality. From homes and offices to events and businesses, we are committed
                                             to delivering freshness you can trust every day.</p>
+
+                                        <p class="mb-0">Our commitment goes beyond supplying bottled water—we focus on reliability, hygiene, and customer satisfaction. Whether you need daily hydration or bulk orders for offices and events, NORÉ ensures timely delivery and premium quality in every bottle.</p>
                                     </div>
-                                    <div class="bottom-box">
+                                    <!-- <div class="bottom-box">
                                         <div class="header-right_buttom m-0">
                                             <div class="btns-box">
                                                 <a class="btn-one" href="about-us.php">
                                                     <div class="round"></div>
-                                                    <span class="txt">More About Us</span>
+                                                    <span class="txt">contact Now</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -67,7 +69,7 @@ ob_start();
                                             <h5>Call Now</h5>
                                             <span><a href="917838230000">+91 7838230000</a></span>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
                             </div>

@@ -643,7 +643,7 @@ ob_start();
             </div>
         </div>
 
-        <div class="row pb-4">
+        <div class="row">
             <!-- Everyday -->
             <div class="col-6 col-lg-3 mb-3 mb-md-0">
                 <div class="use-card wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">

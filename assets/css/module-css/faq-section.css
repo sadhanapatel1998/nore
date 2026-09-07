@@ -96,7 +96,7 @@
      position: relative;
      display: block;
          border-radius: 15px;
-     padding: 0px 60px 60px;
+     padding: 0px 60px 0px;
 }
 .accordion-box .block{
     position: relative;
@@ -119,6 +119,7 @@
     padding: 21px 80px 21px 40px;
     cursor: pointer;
     transition: all 500ms ease;
+        border: 1px solid #e0eaf0;
 }
 .accordion-box .block .acc-btn.active{
     background: var(--thm-base);
@@ -139,14 +140,14 @@
     position: absolute;
     top: 50%;
     right: 40px;
-    width: 40px;
-    height: 40px;
-    background: #ecf2f6;
+    width: 32px;
+    height: 32px;
+    background: #ce9c69;
     border-radius: 50%;
-    color: #98a1a7;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 12px;
     text-align: center;
-    line-height: 40px;
+    line-height: 32px;
     cursor: pointer;
     transform: translateY(-50%) rotate(-45deg);
     transition: all 500ms ease;
