@@ -80,6 +80,23 @@
 .main-slider .auto-container{
     position: relative;
 }
+.main-slider .content .top-text{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 26px;
+    opacity: 0;
+    transform: perspective(400px) translateY(-120px);
+    transform-origin: bottom;
+    transition: all 800ms ease;
+}
+
+/* When slide becomes active */
+.main-slider .active .content .top-text{
+    opacity: 1;
+    transform: perspective(400px) translateY(0);
+    transition-delay: 300ms;
+}
 .main-slider .content .big-title{
     position: relative;
     display: block;

@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/jquery.bootstrap-touchspin.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/bxslider.css">
 
     <!-- Module css -->
     <link rel="stylesheet" href="assets/css/module-css/header-section.css">
@@ -59,14 +60,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <!-- Bootstrap Icons -->
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -90,12 +92,6 @@
             <div class="layer layer-three"><span class="overlay"></span></div>
         </div> -->
 
-        <!-- page-direction -->
-        <div class="page_direction">
-            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
-            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
-        </div>
-        <!-- page-direction end -->
 
 
         <?php require_once("include/header.php"); ?>
@@ -106,37 +102,22 @@
             <span class="icon-right-arrow-1"></span>
         </button>
 
+        <!-- Floating Contact Buttons -->
+        <div class="nore-floating-contact">
 
+            <!-- Call -->
+            <a href="tel:7838230000" class="floating-btn call-btn" aria-label="Call NORÉ">
+                <i class="bi bi-telephone-fill"></i>
+                <span>Call Us</span>
+            </a>
 
-        <!-- search-popup -->
-        <div id="search-popup" class="search-popup">
-            <div class="close-search"><i class="icon-close"></i></div>
-            <div class="popup-inner">
-                <div class="overlay-layer"></div>
-                <div class="search-form">
-                    <form method="post" action="index.html">
-                        <div class="form-group">
-                            <fieldset>
-                                <input type="search" class="form-control" name="search-input" value=""
-                                    placeholder="Search Here" required="">
-                                <input type="submit" value="Search Now!" class="theme-btn style-four">
-                            </fieldset>
-                        </div>
-                    </form>
-                    <h3>Recent Search Keywords</h3>
-                    <ul class="recent-searches">
-                        <li><a href="index.html">Water Quality</a></li>
-                        <li><a href="index.html">Mineral</a></li>
-                        <li><a href="index.html">Bottle</a></li>
-                        <li><a href="index.html">Safety</a></li>
-                        <li><a href="index.html">Plan</a></li>
-                    </ul>
-                </div>
-            </div>
+            <!-- WhatsApp -->
+            <a href="https://wa.me/917838230000" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp NORÉ">
+                <i class="bi bi-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+
         </div>
-        <!-- search-popup end -->
-
-
     </div>
 
 
@@ -163,16 +144,32 @@
     <script src="assets/js/validation.js"></script>
     <script src="assets/js/wow.js"></script>
 
+    <script src="assets/js/bxslider.min.js"></script>
+
+
+
     <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/tilt.jquery.js"></script>
 
 
-    <script async="" defer=""
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM&callback=initMap">
-    </script>
+
     <!-- thm custom script -->
     <script src="assets/js/custom.js"></script>
+    <script>
+        $('.popup-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1]
+            },
+            closeBtnInside: false,
+            removalDelay: 300,
+            mainClass: 'mfp-fade'
+        });
+    </script>
 
 
 

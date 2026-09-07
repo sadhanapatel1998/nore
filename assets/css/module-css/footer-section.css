@@ -204,10 +204,10 @@ footer a:hover{
 }
 .single-footer-widget-business-hours .btn-box a:after{
     background: #021334;
-    border: 1px solid #fff;
+    border: 1px solid #ce9c4d;
 }
 .single-footer-widget-business-hours .btn-box a.btn-one .round{
-    background: #5dbcdf;
+       background: #ce9c4d;
 }
 .single-footer-widget-business-hours .btn-box a.btn-one:before {
     display: none;

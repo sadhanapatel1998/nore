@@ -10,15 +10,14 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
                     <div class="single-footer-widget marbtm50">
                         <div class="our-company-info">
-
                             <div class="footer-logo">
                                 <a href="/">
-                                    <img src="assets/images/logo/logo.png" alt="NORÉ Logo" class="w-75">
+                                    <img src="assets/images/logo/logo.png" alt="NORE Logo" class="w-50">
                                 </a>
                             </div>
 
                             <div class="text-box">
-                                <p>NORÉ delivers premium packaged drinking water with trusted purity,
+                                <p>NORE delivers premium packaged drinking water with trusted purity,
                                     advanced purification, and reliable doorstep delivery for homes,
                                     offices, and businesses.</p>
                             </div>
@@ -44,15 +43,17 @@
 
                         <div class="footer-widget-links">
                             <ul class="pull-left">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="products.html">Products</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="bottle-250-ml.php">250 ml Bottle</a></li>
+                                <li><a href="bottle-500-ml.php">500 ml Bottle</a></li>
+                                <li><a href="bottle-1-litre.php">1 Litre Bottle</a></li>
                             </ul>
 
                             <ul class="pull-left marleft-60">
-                                <li><a href="distributor.html">Distributor</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="blog.php">Blogs</a></li>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <li><a href="contact-us.php">Contact Us</a></li>
                                 <li><a href="tel:7838230000">Order Now</a></li>
                             </ul>
                         </div>
@@ -73,9 +74,11 @@
                             <h4>Karol Bagh, Delhi</h4>
 
                             <p>
-                                937-938/3, Elahi Bux Road,<br>
-                                Nai Walan (Basement of Hotel LAVISTA),<br>
-                                Karol Bagh, Delhi-110005
+                                <a href="https://maps.app.goo.gl/6ffzYAhqkc4BQ5yR9">
+                                    937-938/3, Elahi Bux Road,<br>
+                                    Nai Walan (Basement of Hotel LAVISTA),<br>
+                                    Karol Bagh, Delhi-110005
+                                </a>
                             </p>
 
                             <div class="phone">
@@ -127,19 +130,21 @@
         <div class="container">
             <div class="bottom-inner clearfix">
 
-                <div class="copyright pull-left">
-                    <p>
+                <div class="copyright">
+                    <p class="text-center">
                         Copyright © 2026
-                        <a href="index.html"> NORÉ.</a>
-                        All Rights Reserved.
+                        <a href="index.php">NORE</a>.
+                        All Rights Reserved. |
+                        Managed by
+                        <a href="https://hoverbusinessservices.com/" target="_blank">Hover Business Services LLP</a>
                     </p>
                 </div>
 
-                <ul class="footer-nav pull-right clearfix">
+                <!-- <ul class="footer-nav pull-right clearfix">
                     <li><a href="#">Terms & Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Sitemap</a></li>
-                </ul>
+                </ul> -->
 
             </div>
         </div>

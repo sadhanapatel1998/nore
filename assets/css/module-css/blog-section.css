@@ -49,7 +49,7 @@
     position: absolute;
     top: 20px;
     left: -20px;
-    background: var(--thm-primary);
+       background: #570c1a;
     padding: 5px 10px 1px;
     padding-right: 15px;
     border-top-right-radius: 20px;
@@ -88,8 +88,8 @@
     padding: 24px 10px 18px;
 }
 .single-blog-style1 .text-holder .blog-title {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 19px;
+    line-height: 30px;
     font-weight: 600;
     text-transform: none;
     margin-bottom: 15px;
@@ -187,7 +187,7 @@
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 110px 0 80px;
+    padding: 80px 0 50px;
     z-index: 1;
 }
 
@@ -201,10 +201,10 @@
     padding-bottom: 10px;
 }
 .single-blog-style2 .text-holder .blog-title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .single-blog-style2 .text-holder .btns-box {
-    border-top: 1px solid #dae5ec;
+    border: none;
     padding-top: 19px;
     display: flex;
     flex-direction: row;

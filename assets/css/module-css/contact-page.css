@@ -29,9 +29,9 @@
     display: block;
     width: 100%;
     height: 100%;
-    background: #ecf2f6;
+    background: #ce9c4d;
     border-radius: 50%;
-    color: var(--thm-primary);
+    color: #ffffff;
     font-size: 25px;
     line-height: 56px;
     text-align: center;
@@ -97,14 +97,14 @@
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 110px 0 110px;
+    padding:80px 0 80px;
     z-index: 10;
 }
 
 .contact-style1_form {
     position: relative;
     display: block;
-    background: #ffffff;
+    background: #a2ddff;
     border-radius: 10px;
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     padding: 50px 50px 50px;
@@ -140,7 +140,7 @@
     top: 0;
     left: 20px;
     bottom: 0;
-    color: var(--thm-primary);
+       color: #02173f;
     font-size: 18px;
     line-height: 53px;
     width: 30px;
@@ -240,6 +240,9 @@
 .our-service-box{
     position: relative;
     display: block;
+}
+.our-service-box img{
+    border-radius: 10px;
 }
 .single-service{
     position: relative;

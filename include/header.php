@@ -54,7 +54,7 @@
                 <div class="header-left">
                     <div class="logo">
                         <a href="index.php">
-                            <img src="assets/images/logo/logo.png" alt="NORÉ Logo">
+                            <img src="assets/images/logo/logo.png" alt="NORE Logo">
                         </a>
                     </div>
                 </div>
@@ -85,11 +85,11 @@
                                     </li>
 
                                     <li class="dropdown">
-                                        <a href="#"><span>Products</span></a>
+                                        <a href="javascript:void(0)"><span>Products</span></a>
                                         <ul>
-                                            <li><a href="#">250 ml Bottle</a></li>
-                                            <li><a href="#">500 ml Bottle</a></li>
-                                            <li><a href="#">1 Litre Bottle</a></li>
+                                            <li><a href="bottle-250-ml.php">250 ml Bottle</a></li>
+                                            <li><a href="bottle-500-ml.php">500 ml Bottle</a></li>
+                                            <li><a href="bottle-1-litre.php">1 Litre Bottle</a></li>
                                         </ul>
                                     </li>
 
@@ -98,20 +98,16 @@
                                     </li>
 
                                     <li>
-                                        <a href="distributor.php"><span>Distributor</span></a>
+                                        <a href="blog.php"><span>Blog</span></a>
                                     </li>
 
                                     <li>
-                                        <a href="contact.php"><span>Contact</span></a>
+                                        <a href="contact-us.php"><span>Contact Us</span></a>
                                     </li>
-
                                 </ul>
-
                             </div>
                         </nav>
-
                     </div>
-
                     <div class="header-right_buttom">
                         <div class="btns-box">
                             <a class="btn-one" href="contact-us.php">
@@ -120,9 +116,7 @@
                             </a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
@@ -134,7 +128,7 @@
 
                 <div class="logo float-left">
                     <a href="index.php">
-                        <img src="assets/images/logo/logo.png" alt="NORÉ Logo">
+                        <img src="assets/images/logo/logo.png" alt="NORE Logo">
                     </a>
                 </div>
 
@@ -158,22 +152,57 @@
 
         <nav class="menu-box">
 
+            <!-- Logo -->
             <div class="nav-logo">
                 <a href="index.php">
-                    <img src="assets/images/logo/logo.png" alt="NORÉ Logo">
+                    <img src="assets/images/logo/logo.png" alt="NORE Logo">
                 </a>
             </div>
 
+            <!-- Menu -->
             <div class="menu-outer"></div>
 
-            <div class="social-links">
+            <!-- Contact Info -->
+            <div class="mobile-contact-info">
+                <h4>Contact Us</h4>
+
+                <ul>
+                    <li>
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="tel:7838230000">7838230000</a>
+                    </li>
+
+                    <li>
+                        <i class="bi bi-envelope-fill"></i>
+                        <a href="mailto:qbpolychem@gmail.com">qbpolychem@gmail.com</a>
+                    </li>
+
+                    <li>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <a href="https://maps.app.goo.gl/6ffzYAhqkc4BQ5yR9" target="_blank">937-938/3, Elahi Bux Road, Nai Walan (Basement of Hotel LAVISTA), Karol Bagh, Delhi-110005</a>
+                    </li>
+
+                    <!-- <li>
+                        <i class="bi bi-globe2"></i>
+                        <a href="https://noreaqua.com" target="_blank">noreaqua.com</a>
+                    </li>
+
+                    <li>
+                        <i class="bi bi-clock-fill"></i>
+                        <span>Mon – Sat: 9:00 AM – 7:00 PM</span>
+                    </li> -->
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <!-- <div class="social-links">
                 <ul class="clearfix">
                     <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                     <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                     <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                     <li><a href="#"><i class="bi bi-youtube"></i></a></li>
                 </ul>
-            </div>
+            </div> -->
 
         </nav>
     </div>

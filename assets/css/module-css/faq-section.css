@@ -8,8 +8,10 @@
 .faq-style1-area {
     position: relative;
     display: block;
-    background: #ffffff;
-    padding: 110px 0 110px;
+    padding: 80px 0;
+    background: url(../../images/bg/shop-bg.jpg) center center / cover no-repeat;
+    overflow: hidden;
+    margin-top: 80px;
 }
 .faq-style1-content {
     position: relative;
@@ -93,8 +95,8 @@
 .accordion-box{
      position: relative;
      display: block;
-     background: #eaf0f4;
-     padding: 60px 60px 60px;
+         border-radius: 15px;
+     padding: 0px 60px 60px;
 }
 .accordion-box .block{
     position: relative;

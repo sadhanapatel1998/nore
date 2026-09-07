@@ -28,7 +28,7 @@ ob_start();
                                 and revitalized.</p>
                         </div>
                         <div class="btns-box">
-                            <a class="btn-one" href="about.html">
+                            <a class="btn-one" href="about-us.php">
                                 <div class="round"></div>
                                 <span class="txt">Explore More</span>
                             </a>
@@ -153,21 +153,21 @@ ob_start();
                     <div class="row">
                         <div class="col-xl-6">
                             <div class="about-product-wrap">
-                                <img src="assets/images/about/about.png" class="about-nore-image" alt="NORÉ Product">
+                                <img src="assets/images/about/about.png" class="about-nore-image" alt="NORE Product">
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="about-style3-text-box1">
                                 <div class="sec-title">
                                     <div class="sub-title">
-                                        <h5>About NORÉ</h5>
+                                        <h5>About NORE</h5>
                                     </div>
                                     <h2>Pure Water <br> for Healthier Lives</h2>
                                 </div>
                                 <div class="inner-content">
                                     <h5>Premium Packaged Drinking Water</h5>
                                     <div class="text">
-                                        <p>At NORÉ, we believe that pure water is the foundation of a healthier life. We
+                                        <p>At NORE, we believe that pure water is the foundation of a healthier life. We
                                             deliver high-quality packaged drinking water through advanced purification
                                             processes, ensuring every bottle is safe, refreshing, and consistent in
                                             quality. From homes and offices to events and businesses, we are committed
@@ -199,7 +199,7 @@ ob_start();
 </section>
 <!--End About Area-->
 
-<!--Start Shop Style2 Area-->
+<!--Start Products Area-->
 <section class="shop-style2-area">
     <div class="nore-bubble-wrap">
         <span class="nore-bubble"></span>
@@ -227,7 +227,7 @@ ob_start();
                 <h2>Pure Water for Every Need</h2>
                 <p>
                 <div class="text mt-2">
-                    <p>From compact 250 mL bottles to convenient 1000 mL packs, NORÉ delivers
+                    <p>From compact 250 mL bottles to convenient 1000 mL packs, NORE delivers
                         premium packaged drinking water with exceptional purity, refreshing taste,
                         and trusted quality for every occasion.</p>
                 </div>
@@ -238,25 +238,56 @@ ob_start();
         <div class="row">
             <div class="col-xl-12">
                 <div class="theme_carousel shop-carousel_1 owl-dot-style1 owl-theme owl-carousel"
-                    data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": false, "dots": false, "autoplay": false, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
+                    data-options='{
+                    "loop": true,
+                    "margin": 30,
+                    "autoHeight": true,
+                    "lazyLoad": true,
+                    "nav": false,
+                    "autoplay": false,
+                    "autoplayTimeout": 6000,
+                    "smartSpeed": 300,
+                    "responsive": {
+                        "0": {
+                            "items": 1,
+                            "dots": true
+                        },
+                        "600": {
+                            "items": 1,
+                            "dots": true
+                        },
+                        "768": {
+                            "items": 1,
+                            "dots": false
+                        },
+                        "992": {
+                            "items": 2,
+                            "dots": false
+                        },
+                        "1200": {
+                            "items": 3,
+                            "dots": false
+                        }
+                    }
+                }'>
 
                     <!-- 1000 mL -->
                     <div class="single-shop-item single-shop-item--style2">
                         <div class="single-shop-item_inner">
                             <div class="img-holder">
-                                <img src="assets/images/product/water-1000-ml.jpg" alt="NORÉ 1000 mL Water Bottle">
+                                <img src="assets/images/product/water-1000-ml.jpg" alt="NORE 1000 mL Water Bottle">
                                 <div class="overlay">
                                     <span class="icon-email"></span>
-                                    <a href="#">Enquire</a>
+                                    <a href="contact-us.php">Enquire</a>
                                 </div>
                             </div>
                             <div class="title-holder">
-                                <h3><a href="product-details.html">1000 mL Bottle</a></h3>
+                                <h3><a href="bottle-1-litre.php">1000 mL Bottle</a></h3>
                                 <p>Perfect for daily hydration at home, work, and travel.</p>
 
                                 <div class="header-right_buttom m-0">
                                     <div class="btns-box">
-                                        <a class="btn-one" href="about.html">
+                                        <a class="btn-one" href="bottle-1-litre.php">
                                             <div class="round"></div>
                                             <span class="txt">Read More</span>
                                         </a>
@@ -270,19 +301,19 @@ ob_start();
                     <div class="single-shop-item single-shop-item--style2">
                         <div class="single-shop-item_inner">
                             <div class="img-holder">
-                                <img src="assets/images/product/water-500-ml.jpg" alt="NORÉ 500 mL Water Bottle">
+                                <img src="assets/images/product/water-500-ml.jpg" alt="NORE 500 mL Water Bottle">
                                 <div class="overlay">
                                     <span class="icon-email"></span>
-                                    <a href="#">Enquire</a>
+                                    <a href="contact-us.php">Enquire</a>
                                 </div>
                             </div>
                             <div class="title-holder">
-                                <h3><a href="product-details.html">500 mL Bottle</a></h3>
+                                <h3><a href="bottle-500-ml.php">500 mL Bottle</a></h3>
                                 <p>Refreshing hydration for everyday moments and active lifestyles.</p>
 
                                 <div class="header-right_buttom m-0">
                                     <div class="btns-box">
-                                        <a class="btn-one" href="about.html">
+                                        <a class="btn-one" href="bottle-500-ml.php">
                                             <div class="round"></div>
                                             <span class="txt">Read More</span>
                                         </a>
@@ -296,19 +327,19 @@ ob_start();
                     <div class="single-shop-item single-shop-item--style2">
                         <div class="single-shop-item_inner">
                             <div class="img-holder">
-                                <img src="assets/images/product/water-250-ml.jpg" alt="NORÉ 250 mL Water Bottle">
+                                <img src="assets/images/product/water-250-ml.jpg" alt="NORE 250 mL Water Bottle">
                                 <div class="overlay">
                                     <span class="icon-email"></span>
-                                    <a href="#">Enquire</a>
+                                    <a href="contact-us.php">Enquire</a>
                                 </div>
                             </div>
                             <div class="title-holder">
-                                <h3><a href="product-details.html">250 mL Bottle</a></h3>
+                                <h3><a href="bottle-250-ml.php">250 mL Bottle</a></h3>
                                 <p>Compact and convenient—ideal for events, meetings, and kids.</p>
 
                                 <div class="header-right_buttom m-0">
                                     <div class="btns-box">
-                                        <a class="btn-one" href="about.html">
+                                        <a class="btn-one" href="bottle-250-ml.php">
                                             <div class="round"></div>
                                             <span class="txt">Read More</span>
                                         </a>
@@ -317,28 +348,27 @@ ob_start();
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--End Shop Style2 Area-->
+<!--End Products Area-->
 
 <!--Start Choose Style1 Area-->
 <section class="choose-style1-area">
     <div class="container">
         <div class="row">
-            <div class="col-xl-4">
+            <div class="col-xl-4 order-2 order-md-1">
                 <div class="choose-style1_image-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <img src="assets/images/resources/choose-style1-img.png" alt="">
                 </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-8 order-1 order-md-2">
                 <div class="choose-style1-content">
                     <div class="sec-title">
                         <div class="sub-title">
-                            <h5>Why Choose NORÉ</h5>
+                            <h5>Why Choose NORE</h5>
                         </div>
                         <h2 class="text-white">Pure Water. <br>Trusted Every Day.</h2>
                     </div>
@@ -411,7 +441,6 @@ ob_start();
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -444,7 +473,7 @@ ob_start();
             <h2>Pure Water for Every Need</h2>
             <p>
             <div class="text mt-2">
-                <p>From compact 250 mL bottles to convenient 1000 mL packs, NORÉ delivers
+                <p>From compact 250 mL bottles to convenient 1000 mL packs, NORE delivers
                     premium packaged drinking water with exceptional purity, refreshing taste,
                     and trusted quality for every occasion.</p>
             </div>
@@ -452,12 +481,12 @@ ob_start();
         </div>
 
         <!-- steps grid -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-6 g-4 gold-track">
+        <div class="row g-4 gold-track">
             <!-- connector line (desktop only) -->
             <div class="connector-line" aria-hidden="true"></div>
 
             <!-- Step 1 -->
-            <div class="col step-item" data-step="1">
+            <div class="col-6 col-md-4 col-xl-2 step-item" data-step="1">
                 <div class="gold-card">
                     <div class="step-icon"><i class="bi bi-droplet"></i></div>
                     <div class="step-number">01</div>
@@ -467,7 +496,7 @@ ob_start();
             </div>
 
             <!-- Step 2 -->
-            <div class="col step-item" data-step="2">
+            <div class="col-6 col-md-4 col-xl-2 step-item" data-step="2">
                 <div class="gold-card">
                     <div class="step-icon"><i class="bi bi-funnel"></i></div>
                     <div class="step-number">02</div>
@@ -477,7 +506,7 @@ ob_start();
             </div>
 
             <!-- Step 3 -->
-            <div class="col step-item" data-step="3">
+            <div class="col-6 col-md-4 col-xl-2 step-item" data-step="3">
                 <div class="gold-card">
                     <div class="step-icon"><i class="bi bi-arrow-repeat"></i></div>
                     <div class="step-number">03</div>
@@ -487,7 +516,7 @@ ob_start();
             </div>
 
             <!-- Step 4 -->
-            <div class="col step-item" data-step="4">
+            <div class="col-6 col-md-4 col-xl-2 step-item" data-step="4">
                 <div class="gold-card">
                     <div class="step-icon"><i class="bi bi-sun"></i></div>
                     <div class="step-number">04</div>
@@ -497,7 +526,7 @@ ob_start();
             </div>
 
             <!-- Step 5 -->
-            <div class="col step-item" data-step="5">
+            <div class="col-6 col-md-4 col-xl-2 step-item" data-step="5">
                 <div class="gold-card">
                     <div class="step-icon"><i class="bi bi-wind"></i></div>
                     <div class="step-number">05</div>
@@ -507,7 +536,7 @@ ob_start();
             </div>
 
             <!-- Step 6 -->
-            <div class="col step-item" data-step="6">
+            <div class="col-6 col-md-4 col-xl-2 step-item" data-step="6">
                 <div class="gold-card">
                     <div class="step-icon"><i class="bi bi-check-circle"></i></div>
                     <div class="step-number">06</div>
@@ -528,7 +557,7 @@ ob_start();
             <div class="row g-0">
                 <div class="col-lg-6 quality-content">
                     <span class="quality-tag">Our Quality Promise</span>
-                    <h2 class="quality-heading">Every Drop Meets<br>Our Standards.</h2>
+                    <h2 class="quality-heading">Every Drop Meets Our Standards.</h2>
                     <p class="quality-desc">
                         From advanced purification to controlled bottling, rigorous hygiene and quality testing —
                         we ensure freshness, purity and consistency in every bottle.
@@ -610,13 +639,13 @@ ob_start();
             <h2>Refreshing Every Moment</h2>
 
             <div class="text mt-2">
-                <p>Whether it's your daily routine, office hours, special celebrations, or premium hospitality, NORÉ delivers pure refreshment wherever life takes you, ensuring trusted quality, lasting freshness, and confidence in every single sip.</p>
+                <p>Whether it's your daily routine, office hours, special celebrations, or premium hospitality, NORE delivers pure refreshment wherever life takes you, ensuring trusted quality, lasting freshness, and confidence in every single sip.</p>
             </div>
         </div>
 
         <div class="row pb-4">
             <!-- Everyday -->
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-3 mb-3 mb-md-0">
                 <div class="use-card wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <div class="use-photo" style="background-image:url('assets/images/use/everyday.jpg')">
                         <div class="use-icon"><i class="bi bi-house-door-fill"></i></div>
@@ -629,7 +658,7 @@ ob_start();
             </div>
 
             <!-- Office -->
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-3 mb-3 mb-md-0">
                 <div class="use-card wow fadeInDown" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="use-photo" style="background-image:url('assets/images/use/office.jpg')">
                         <div class="use-icon"><i class="bi bi-briefcase-fill"></i></div>
@@ -642,7 +671,7 @@ ob_start();
             </div>
 
             <!-- Events -->
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-3 mb-3 mb-md-0">
                 <div class="use-card wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1500ms">
                     <div class="use-photo" style="background-image:url('assets/images/use/event.jpg')">
                         <div class="use-icon"><i class="bi bi-calendar-event-fill"></i></div>
@@ -655,7 +684,7 @@ ob_start();
             </div>
 
             <!-- Hospitality -->
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-lg-3 mb-3 mb-md-0">
                 <div class="use-card wow fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="use-photo" style="background-image:url('assets/images/use/hospitality.jpg')">
                         <div class="use-icon"><i class="bi bi-building-fill"></i></div>
@@ -786,7 +815,7 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Excellent Customer Service</h3>
-                                <p>From ordering to delivery, everything is smooth. NORÉ has become our preferred drinking water brand.</p>
+                                <p>From ordering to delivery, everything is smooth. NORE has become our preferred drinking water brand.</p>
                                 <h4>Neha Gupta,</h4>
                             </div>
                         </div>
@@ -809,7 +838,7 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Fresh Water Every Time</h3>
-                                <p>NORÉ always delivers fresh, clean drinking water on time. The quality is excellent and perfect for our family.</p>
+                                <p>NORE always delivers fresh, clean drinking water on time. The quality is excellent and perfect for our family.</p>
                                 <h4>Rohit Sharma,</h4>
                             </div>
                         </div>
@@ -832,7 +861,7 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Reliable Office Supply</h3>
-                                <p>We use NORÉ for our office, and their doorstep delivery is always quick and hassle-free.</p>
+                                <p>We use NORE for our office, and their doorstep delivery is always quick and hassle-free.</p>
                                 <h4>Priya Mehta,</h4>
                             </div>
                         </div>
@@ -916,7 +945,7 @@ ob_start();
 
                 <div class="header-right_buttom m-0">
                     <div class="btns-box">
-                        <a class="btn-one" href="contact.php">
+                        <a class="btn-one" href="contact-us.php">
                             <div class="round"></div>
                             <span class="txt">Get In Touch</span>
                         </a>
@@ -927,6 +956,124 @@ ob_start();
     </div>
 </section>
 <!--End Delivery Section area -->
+
+<section class="blog-style2-area">
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="sub-title">
+                <h5>Latest Insights</h5>
+            </div>
+            <h2>Explore Our Water Stories</h2>
+        </div>
+
+        <div class="row text-right-rtl">
+
+            <!-- Blog 1 -->
+            <div class="col-xl-4">
+                <div class="single-blog-style1 single-blog-style2 wow fadeInUp" data-wow-duration="1500ms">
+                    <div class="img-holder">
+                        <div class="inner">
+                            <img src="assets/images/use/everyday.jpg" alt="Pure Drinking Water">
+                        </div>
+                        <div class="categories">
+                            <h6><i class="fa fa-folder"></i>Pure Water</h6>
+                        </div>
+                    </div>
+
+                    <div class="text-holder">
+                        <div class="meta-box">
+                            <ul class="meta-info">
+                                <li><i class="fa fa-calendar"></i> September 05, 2026</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="blog-title">
+                            <a href="blog.php">Why Choosing Pure Drinking Water Matters Every Day</a>
+                        </h3>
+
+                        <div class="btns-box">
+                            <div class="left">
+                                <a class="btn-two" href="blog.php">
+                                    <span class="icon-right-arrow"></span>Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="col-xl-4">
+                <div class="single-blog-style1 single-blog-style2 wow fadeInUp" data-wow-duration="1500ms">
+                    <div class="img-holder">
+                        <div class="inner">
+                            <img src="assets/images/use/office.jpg" alt="Office Hydration">
+                        </div>
+                        <div class="categories">
+                            <h6><i class="fa fa-folder"></i>Office Tips</h6>
+                        </div>
+                    </div>
+
+                    <div class="text-holder">
+                        <div class="meta-box">
+                            <ul class="meta-info">
+                                <li><i class="fa fa-calendar"></i> August 28, 2026</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="blog-title">
+                            <a href="blog.php">Simple Ways to Keep Your Office Team Hydrated</a>
+                        </h3>
+
+                        <div class="btns-box">
+                            <div class="left">
+                                <a class="btn-two" href="blog.php">
+                                    <span class="icon-right-arrow"></span>Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog 3 -->
+            <div class="col-xl-4">
+                <div class="single-blog-style1 single-blog-style2 wow fadeInUp" data-wow-duration="1500ms">
+                    <div class="img-holder">
+                        <div class="inner">
+                            <img src="assets/images/use/5-tips.jpg" alt="Healthy Hydration">
+                        </div>
+                        <div class="categories">
+                            <h6><i class="fa fa-folder"></i>Healthy Living</h6>
+                        </div>
+                    </div>
+
+                    <div class="text-holder">
+                        <div class="meta-box">
+                            <ul class="meta-info">
+                                <li><i class="fa fa-calendar"></i> August 18, 2026</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="blog-title">
+                            <a href="blog.php">5 Healthy Hydration Habits for Every Lifestyle</a>
+                        </h3>
+
+                        <div class="btns-box">
+                            <div class="left">
+                                <a class="btn-two" href="blog.php">
+                                    <span class="icon-right-arrow"></span>Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Blog -->
+
+        </div>
+    </div>
+</section>
 
 <?php
 $content = ob_get_clean();
