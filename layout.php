@@ -1,24 +1,24 @@
+<?php include('seo.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Aguapure - Responsive HTML 5 Template</title>
+    <title><?= htmlspecialchars($pageMeta['title']) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($pageMeta['description']) ?>">
+    <meta name="keywords" content="<?= htmlspecialchars($pageMeta['keywords']) ?>">
+    <meta name="robots" content="<?= htmlspecialchars($pageMeta['robots']) ?>">
+    <link rel="canonical" href="<?= htmlspecialchars($pageMeta['canonical']) ?>">
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Google Fonts -->
 
     <!-- Google Fonts Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
-
-
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -143,16 +143,10 @@
     <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/validation.js"></script>
     <script src="assets/js/wow.js"></script>
-
     <script src="assets/js/bxslider.min.js"></script>
-
-
-
     <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/tilt.jquery.js"></script>
-
-
 
     <!-- thm custom script -->
     <script src="assets/js/custom.js"></script>
@@ -170,8 +164,34 @@
             mainClass: 'mfp-fade'
         });
     </script>
+    <script>
+        document.getElementById("whatsappForm").addEventListener("submit", function(e) {
+            e.preventDefault();
 
+            const name = document.getElementById("form_name").value.trim();
+            const email = document.getElementById("form_email").value.trim();
+            const phone = document.getElementById("form_phone").value.trim();
+            const subject = document.getElementById("form_subject").value.trim();
+            const message = document.getElementById("form_message").value.trim();
 
+            const whatsappNumber = "917838230000";
+
+            const text =
+                `*New Enquiry - NORÉ Website*
+
+            *Name:* ${name}
+            *Email:* ${email}
+            *Phone:* ${phone}
+            *Subject:* ${subject}
+            
+            *Message:*
+            ${message}`;
+
+            const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+            window.open(url, "_blank");
+        });
+    </script>
 
 </body>
 

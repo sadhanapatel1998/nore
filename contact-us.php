@@ -118,21 +118,20 @@ ob_start();
                     <div class="top-title">
                         <h3>Send Your Message</h3>
                     </div>
-
                     <div class="contact-form">
-                        <form id="contact-form" name="contact_form" class="default-form2" action="assets/inc/sendmail.php" method="post">
+                        <form id="whatsappForm" class="default-form2">
 
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="input-box">
-                                        <input type="text" name="form_name" placeholder="Full Name" required>
+                                        <input type="text" id="form_name" placeholder="Full Name" required>
                                         <div class="icon"><i class="fa fa-user"></i></div>
                                     </div>
                                 </div>
 
                                 <div class="col-xl-12">
                                     <div class="input-box">
-                                        <input type="email" name="form_email" placeholder="Email Address" required>
+                                        <input type="email" id="form_email" placeholder="Email Address" required>
                                         <div class="icon"><i class="fa fa-envelope"></i></div>
                                     </div>
                                 </div>
@@ -141,14 +140,14 @@ ob_start();
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="input-box">
-                                        <input type="text" name="form_phone" placeholder="Phone Number">
+                                        <input type="text" id="form_phone" placeholder="Phone Number" required>
                                         <div class="icon"><i class="fa fa-phone"></i></div>
                                     </div>
                                 </div>
 
                                 <div class="col-xl-12">
                                     <div class="input-box">
-                                        <input type="text" name="form_subject" placeholder="Subject">
+                                        <input type="text" id="form_subject" placeholder="Subject">
                                         <div class="icon"><i class="fa fa-file"></i></div>
                                     </div>
                                 </div>
@@ -157,15 +156,14 @@ ob_start();
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="input-box two">
-                                        <textarea name="form_message" placeholder="Tell us about your enquiry..." required></textarea>
+                                        <textarea id="form_message" placeholder="Tell us about your enquiry..." required></textarea>
                                         <div class="icon"><i class="fa fa-comment"></i></div>
                                     </div>
 
                                     <div class="button-box">
-                                        <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
                                         <button class="btn-one" type="submit">
                                             <span class="round"></span>
-                                            <span class="txt">Send Message</span>
+                                            <span class="txt">Send on WhatsApp</span>
                                         </button>
                                     </div>
                                 </div>
@@ -173,10 +171,8 @@ ob_start();
 
                         </form>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 </section>
