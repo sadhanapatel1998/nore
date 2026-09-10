@@ -64,7 +64,7 @@ ob_start();
                     <div class="text">
                         <h3>Phone</h3>
                         <p>
-                            <a href="tel:+917838230000">+91 78382 30000</a><br>
+                            <a href="tel:+917042429355">+91 78382 30000</a><br>
                             Call us for enquiries.
                         </p>
                     </div>

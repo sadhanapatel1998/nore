@@ -184,7 +184,7 @@ ob_start();
                                         </div>
                                         <div class="name">
                                             <h5>Call Now</h5>
-                                            <span><a href="917838230000">+91 7838230000</a></span>
+                                            <span><a href="917042429355">+91 7042429355</a></span>
                                         </div>
                                     </div>
 
@@ -757,7 +757,7 @@ ob_start();
                             </a>
                         </div>
                     </div>
-                    <a href="tel:917838230000" class="btn-outline-water">Talk To Our Team <i class="bi bi-arrow-right"></i></a>
+                    <a href="tel:917042429355" class="btn-outline-water">Talk To Our Team <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-lg-5 solutions-photo wow fadeInUp"

@@ -81,7 +81,6 @@
 <body>
 
     <div class="boxed_wrapper ltr">
-
         <!-- Preloader -->
         <!-- <div class="loader-wrap">
             <div class="preloader">
@@ -91,8 +90,6 @@
             <div class="layer layer-two"><span class="overlay"></span></div>
             <div class="layer layer-three"><span class="overlay"></span></div>
         </div> -->
-
-
 
         <?php require_once("include/header.php"); ?>
         <?= $content ?? ''; ?>
@@ -104,22 +101,19 @@
 
         <!-- Floating Contact Buttons -->
         <div class="nore-floating-contact">
-
             <!-- Call -->
-            <a href="tel:7838230000" class="floating-btn call-btn" aria-label="Call NORÉ">
+            <a href="tel:7042429355" class="floating-btn call-btn" aria-label="Call NORÉ">
                 <i class="bi bi-telephone-fill"></i>
                 <span>Call Us</span>
             </a>
 
             <!-- WhatsApp -->
-            <a href="https://wa.me/917838230000" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp NORÉ">
+            <a href="https://wa.me/917042429355" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp NORÉ">
                 <i class="bi bi-whatsapp"></i>
                 <span>WhatsApp</span>
             </a>
-
         </div>
     </div>
-
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/aos.js"></script>
@@ -173,22 +167,16 @@
             const phone = document.getElementById("form_phone").value.trim();
             const subject = document.getElementById("form_subject").value.trim();
             const message = document.getElementById("form_message").value.trim();
-
-            const whatsappNumber = "917838230000";
-
+            const whatsappNumber = "917042429355";
             const text =
-                `*New Enquiry - NORÉ Website*
-
+            `*New Enquiry - NORÉ Website*
             *Name:* ${name}
             *Email:* ${email}
             *Phone:* ${phone}
             *Subject:* ${subject}
-            
             *Message:*
             ${message}`;
-
             const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
-
             window.open(url, "_blank");
         });
     </script>

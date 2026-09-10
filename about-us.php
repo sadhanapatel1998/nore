@@ -67,7 +67,7 @@ ob_start();
                                         </div>
                                         <div class="name">
                                             <h5>Call Now</h5>
-                                            <span><a href="917838230000">+91 7838230000</a></span>
+                                            <span><a href="917042429355">+91 7042429355</a></span>
                                         </div>
                                     </div> -->
 
@@ -357,7 +357,7 @@ ob_start();
                                             <h3>How can I place an order?</h3>
                                         </div>
                                         <div class="acc-content">
-                                            <p>You can place an order by calling us at <strong>7838230000</strong>, emailing <strong>qbpolychem@gmail.com</strong>, or contacting us through the NORÉ website.</p>
+                                            <p>You can place an order by calling us at <strong>7042429355</strong>, emailing <strong>qbpolychem@gmail.com</strong>, or contacting us through the NORÉ website.</p>
                                         </div>
                                     </li>
 

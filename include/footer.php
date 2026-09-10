@@ -54,7 +54,7 @@
                                 <li><a href="blog.php">Blogs</a></li>
                                 <li><a href="gallery.php">Gallery</a></li>
                                 <li><a href="contact-us.php">Contact Us</a></li>
-                                <li><a href="tel:7838230000">Order Now</a></li>
+                                <li><a href="tel:7042429355">Order Now</a></li>
                             </ul>
                         </div>
 
@@ -82,7 +82,7 @@
                             </p>
 
                             <div class="phone">
-                                <a href="tel:+917838230000">+91 7838230000</a>
+                                <a href="tel:+917042429355">+91 7042429355</a>
                             </div>
 
                             <div class="email">
@@ -109,7 +109,7 @@
                             </ul>
 
                             <div class="btn-box">
-                                <a class="btn-one" href="tel:+917838230000">
+                                <a class="btn-one" href="tel:+917042429355">
                                     <div class="round"></div>
                                     <span class="txt">Call Now</span>
                                 </a>

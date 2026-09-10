@@ -11,7 +11,7 @@
                         <ul>
                             <li>
                                 <span class="icon-calling"></span>
-                                <a href="tel:7838230000">7838230000</a>
+                                <a href="tel:7042429355">7042429355</a>
                             </li>
                             <li>
                                 <span class="icon-location"></span>
@@ -169,7 +169,7 @@
                 <ul>
                     <li>
                         <i class="bi bi-telephone-fill"></i>
-                        <a href="tel:7838230000">7838230000</a>
+                        <a href="tel:7042429355">7042429355</a>
                     </li>
 
                     <li>
