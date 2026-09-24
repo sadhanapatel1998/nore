@@ -36,6 +36,77 @@ ob_start();
                     </div>
                 </div>
             </div>
+            <!-- Slide : Distributor -->
+            <div class="slide">
+                <div class="image-layer" style="background-image:url(assets/images/slides/slider-1.jpg)"></div>
+
+                <div class="slider-image">
+                    <img class="float-bob-y" src="assets/images/slides/distributor-bottles.png" alt="Distributor">
+                </div>
+
+                <div class="round-box">
+                    <p>Grow.</p>
+                    <p>Partner.</p>
+                    <p>Succeed.</p>
+                </div>
+
+                <div class="auto-container">
+                    <div class="content">
+                        <div class="top-text">BUSINESS OPPORTUNITY</div>
+
+                        <div class="big-title">
+                            <h2>Become a<br><span>NORÉ Distributor</span></h2>
+                        </div>
+
+                        <div class="text">
+                            <p>Join hands with NORÉ and grow your business with premium packaged drinking water. Strong demand, reliable supply and long-term support.</p>
+                        </div>
+
+                        <div class="btns-box">
+                            <a class="btn-one" href="contact-us.php">
+                                <div class="round"></div>
+                                <span class="txt">Become a Distributor</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide : Co-Branding -->
+            <div class="slide">
+                <div class="image-layer" style="background-image:url(assets/images/slides/slider-1.jpg)"></div>
+
+                <div class="slider-image">
+                    <img class="float-bob-y" src="assets/images/slides/co-brand-bottles.png" alt="Co Branding">
+                </div>
+
+                <div class="round-box">
+                    <p>Create.</p>
+                    <p>Brand.</p>
+                    <p>Connect.</p>
+                </div>
+
+                <div class="auto-container">
+                    <div class="content">
+                        <div class="top-text">CUSTOMIZED BRANDING SOLUTIONS</div>
+
+                        <div class="big-title">
+                            <h2>Co-Brand with<br><span>NORÉ</span></h2>
+                        </div>
+
+                        <div class="text">
+                            <p>Create customized water bottles for corporate events, hotels, restaurants, weddings and promotional campaigns with your own branding.</p>
+                        </div>
+
+                        <div class="btns-box">
+                            <a class="btn-one" href="contact-us.php">
+                                <div class="round"></div>
+                                <span class="txt">Explore Co-Branding</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

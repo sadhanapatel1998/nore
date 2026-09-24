@@ -9527,13 +9527,13 @@ select:focus {
 /* ---------- class contains "card" selector ---------- */
 [class*="gold-card"] {
     /* already styled */
-    ;
+    
 }
 
 /* ---------- class starts with "step" ---------- */
 [class^="step-"] {
     /* already styled */
-    ;
+  
 }
 
 /* ---------- first-child & last-child tweaks ---------- */
