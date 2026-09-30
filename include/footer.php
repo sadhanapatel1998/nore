@@ -75,9 +75,7 @@
 
                             <p>
                                 <a href="https://maps.app.goo.gl/6ffzYAhqkc4BQ5yR9">
-                                    937-938/3, Elahi Bux Road,<br>
-                                    Nai Walan (Basement of Hotel LAVISTA),<br>
-                                    Karol Bagh, Delhi-110005
+                                    Hotel LAVISTA Karol Bagh, Dehi-110005
                                 </a>
                             </p>
 
@@ -86,7 +84,7 @@
                             </div>
 
                             <div class="email">
-                                <a href="mailto:qbpolychem@gmail.com">qbpolychem@gmail.com</a>
+                                <a href="mailto:info@noreaqua.com">info@noreaqua.com</a>
                             </div>
                         </div>
 

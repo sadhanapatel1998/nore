@@ -47,9 +47,7 @@ ob_start();
                     <div class="text">
                         <h3>Address</h3>
                         <p>
-                            937–938/3, Elahi Bux Road,<br>
-                            Nai Walan (Basement of Hotel LAVISTA),<br>
-                            Karol Bagh, Delhi – 110005
+                            Hotel LAVISTA Karol Bagh, Dehi-110005
                         </p>
                     </div>
                 </div>
@@ -80,7 +78,7 @@ ob_start();
                     <div class="text">
                         <h3>Email</h3>
                         <p>
-                            <a href="mailto:qbpolychem@gmail.com">qbpolychem@gmail.com</a><br>
+                            <a href="mailto:info@noreaqua.com">info@noreaqua.com</a><br>
                             We'll respond as soon as possible.
                         </p>
                     </div>

@@ -357,7 +357,7 @@ ob_start();
                                             <h3>How can I place an order?</h3>
                                         </div>
                                         <div class="acc-content">
-                                            <p>You can place an order by calling us at <strong>7042429355</strong>, emailing <strong>qbpolychem@gmail.com</strong>, or contacting us through the NORÉ website.</p>
+                                            <p>You can place an order by calling us at <strong>7042429355</strong>, emailing <strong>info@noreaqua.com</strong>, or contacting us through the NORÉ website.</p>
                                         </div>
                                     </li>
 

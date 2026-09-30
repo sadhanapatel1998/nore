@@ -10849,6 +10849,12 @@ select:focus {
 }
 }
 
+@media (max-width: 400px) {
+.single-fact-counter-style2 .title p {
+    font-size: 13px;
+        padding: 0px 0px;
+    }
+}
 .slider-two-image {
     position: relative;
 }

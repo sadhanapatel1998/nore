@@ -15,7 +15,7 @@
                             </li>
                             <li>
                                 <span class="icon-location"></span>
-                                Karol Bagh, Delhi-110005
+                                Hotel LAVISTA Karol Bagh, Dehi-110005
                             </li>
                         </ul>
                     </div>
@@ -26,8 +26,8 @@
                         <span class="icon-email"></span>
                         <p>
                             Email:
-                            <a href="mailto:qbpolychem@gmail.com">
-                                qbpolychem@gmail.com
+                            <a href="mailto:info@noreaqua.com">
+                                info@noreaqua.com
                             </a>
                         </p>
                     </div>
@@ -260,12 +260,12 @@
 
                     <li>
                         <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:qbpolychem@gmail.com">qbpolychem@gmail.com</a>
+                        <a href="mailto:info@noreaqua.com">info@noreaqua.com</a>
                     </li>
 
                     <li>
                         <i class="bi bi-geo-alt-fill"></i>
-                        <a href="https://maps.app.goo.gl/6ffzYAhqkc4BQ5yR9" target="_blank">937-938/3, Elahi Bux Road, Nai Walan (Basement of Hotel LAVISTA), Karol Bagh, Delhi-110005</a>
+                        <a href="https://maps.app.goo.gl/6ffzYAhqkc4BQ5yR9" target="_blank">Hotel LAVISTA Karol Bagh, Dehi-110005</a>
                     </li>
 
                     <!-- <li>
