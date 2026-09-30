@@ -436,7 +436,7 @@
 .main-menu .navigation>li:hover.dropdown>a:after,
 .main-menu .navigation>li.current.dropdown>a:after{
     color: var(--thm-primary);
-    line-height: 36px;
+    line-height: 28px;
 }
 
 .main-menu .navigation>li>a:before {

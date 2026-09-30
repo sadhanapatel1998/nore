@@ -84,13 +84,99 @@
                                         <a href="about-us.php"><span>About</span></a>
                                     </li>
 
-                                    <li class="dropdown">
+                                    <!-- <li class="dropdown">
                                         <a href="javascript:void(0)"><span>Products</span></a>
                                         <ul>
                                             <li><a href="bottle-250-ml.php">250 ml Bottle</a></li>
                                             <li><a href="bottle-500-ml.php">500 ml Bottle</a></li>
                                             <li><a href="bottle-1-litre.php">1 Litre Bottle</a></li>
                                         </ul>
+                                    </li> -->
+
+                                    <!-- Products -->
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);">Products</a>
+                                        <ul>
+
+                                            <!-- Water -->
+                                            <li class="dropdown">
+                                                <a href="#">Water</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="packaged-drinking-water.php">
+                                                            Packaged Drinking Water
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="mineral-water.php">
+                                                            Mineral Water
+                                                            <span class="coming-soon">(Coming Soon)</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="sparkling-water.php">
+                                                            Sparkling Water
+                                                            <span class="coming-soon">(Coming Soon)</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="alkaline-water.php">
+                                                            Alkaline Water
+                                                            <span class="coming-soon">(Coming Soon)</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="flavoured-water.php">
+                                                            Flavoured Water
+                                                            <span class="coming-soon">(Launching Soon)</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Carbonated Drinks -->
+                                            <li class="dropdown">
+                                                <a href="#">Carbonated Drinks</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="nore-jeera-zing.php">
+                                                            NORE Jeera Zing
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="lemon-fizz.php">
+                                                            Lemon Fizz
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="nore-mojito.php">
+                                                            NORE Mojito
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Energy Drinks -->
+                                            <li>
+                                                <a href="energy-drinks.php">
+                                                    Energy Drinks
+                                                    <span class="coming-soon">(Coming Soon)</span>
+                                                </a>
+                                            </li>
+
+                                            <!-- Medicated Drinks -->
+                                            <li>
+                                                <a href="medicated-drinks.php">
+                                                    Medicated Drinks
+                                                    <span class="coming-soon">(Under Development)</span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="gallery.php"><span>Partner With Us</span></a>
                                     </li>
 
                                     <li>
@@ -101,9 +187,9 @@
                                         <a href="blog.php"><span>Blog</span></a>
                                     </li>
 
-                                    <li>
-                                        <a href="contact-us.php"><span>Contact Us</span></a>
-                                    </li>
+                                    <!-- <li>
+                                        <a href="contact-us.php"><span>Contact</span></a>
+                                    </li> -->
                                 </ul>
                             </div>
                         </nav>
@@ -112,7 +198,7 @@
                         <div class="btns-box">
                             <a class="btn-one" href="contact-us.php">
                                 <div class="round"></div>
-                                <span class="txt">Order Now</span>
+                                <span class="txt">Contact Now</span>
                             </a>
                         </div>
                     </div>

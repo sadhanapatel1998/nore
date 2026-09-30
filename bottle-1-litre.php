@@ -160,16 +160,11 @@ ob_start();
 
                         <!-- Specification Table -->
 
-                        <div class="col-lg-6">
-
+                        <div class="col-lg-12">
                             <div class="technical-spec-box">
-
                                 <h4 class="mb-4">1000 mL Bottle</h4>
-
                                 <table class="table technical-table">
-
                                     <tbody>
-
                                         <tr>
                                             <th>Capacity</th>
                                             <td>1000 mL (1 Litre)</td>
@@ -214,7 +209,7 @@ ob_start();
                         </div>
 
                         <!-- Drawing Image -->
-
+<!-- 
                         <div class="col-lg-6">
 
                             <div class="technical-image-box">
@@ -227,7 +222,7 @@ ob_start();
 
                             </div>
 
-                        </div>
+                        </div> -->
 
                     </div>
 

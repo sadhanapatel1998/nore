@@ -168,7 +168,7 @@ ob_start();
 
                         <!-- Specification Table -->
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-12">
 
                             <div class="technical-spec-box">
 
@@ -220,7 +220,7 @@ ob_start();
                             </div>
                         </div>
                         <!-- Drawing Image -->
-                        <div class="col-lg-6">
+                        <!-- <div class="col-lg-6">
                             <div class="technical-image-box">
                                 <img src="assets/images/product/specification-500ml.jpg"
                                     alt="500 mL Technical Drawing"
@@ -229,7 +229,7 @@ ob_start();
                                     data-wow-duration="2500ms">
 
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

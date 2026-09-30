@@ -36,56 +36,140 @@ ob_start();
                     </div>
                 </div>
             </div>
-            <!-- Slide : Distributor -->
-            <div class="slide">
-                <div class="image-layer" style="background-image:url(assets/images/slides/slider-1.jpg)"></div>
 
-                <div class="slider-image">
-                    <img class="float-bob-y" src="assets/images/slides/distributor-bottles.png" alt="Distributor">
+            <!-- Distribution Slide -->
+            <div class="slide">
+
+                <div class="image-layer"
+                    style="background-image:url(assets/images/slides/slider-1.jpg)">
                 </div>
 
+                <!-- Product Image -->
+                <div class="slider-image slider-two-image ">
+                    <!-- ripples at the base -->
+                    <span class="water-ripple"></span>
+                    <span class="water-ripple"></span>
+                    <span class="water-ripple"></span>
+
+                    <img class="w-80 md:w-100 mb-2 slide-2-bootle" src="assets/images/slides/water-bottle.png" alt="">
+
+                    <!-- rising bubbles -->
+                    <span class="bubble" style="--x:12%; --s:10px; --d:5s; --delay:0s"></span>
+                    <span class="bubble" style="--x:28%; --s:6px;  --d:4s; --delay:1s"></span>
+                    <span class="bubble" style="--x:45%; --s:12px; --d:6s; --delay:2s"></span>
+                    <span class="bubble" style="--x:62%; --s:8px;  --d:4.5s; --delay:0.5s"></span>
+                    <span class="bubble" style="--x:78%; --s:14px; --d:5.5s; --delay:1.5s"></span>
+                    <span class="bubble" style="--x:90%; --s:7px;  --d:4s; --delay:2.5s"></span>
+                </div>
+                <!-- Round Tag -->
                 <div class="round-box">
-                    <p>Grow.</p>
                     <p>Partner.</p>
-                    <p>Succeed.</p>
+                    <p>Grow.</p>
+                    <p>Distribute.</p>
                 </div>
 
                 <div class="auto-container">
                     <div class="content">
-                        <div class="top-text">BUSINESS OPPORTUNITY</div>
+                        <div class="top-text">
+                            BECOME A DISTRIBUTION PARTNER
+                        </div>
 
                         <div class="big-title">
-                            <h2>Become a<br><span>NORÉ Distributor</span></h2>
+                            <h2>
+                                Grow With
+                                <span>NORE.</span>
+                            </h2>
                         </div>
 
                         <div class="text">
-                            <p>Join hands with NORÉ and grow your business with premium packaged drinking water. Strong demand, reliable supply and long-term support.</p>
+                            <p>
+                                Partner with us to bring premium packaged drinking water
+                                to more customers and grow your business.
+                            </p>
                         </div>
 
-                        <div class="btns-box">
+
+                        <!-- Distribution Options -->
+                        <div class="nore-distribution-options">
+
+                            <!-- Dealer -->
+                            <div class="nore-distribution-item">
+                                <div class="nore-distribution-icon">
+                                    <i class="bi bi-shop"></i>
+                                </div>
+
+                                <span class="nore-distribution-number">01</span>
+
+                                <h4>Dealer</h4>
+                            </div>
+
+                            <!-- Distributor -->
+                            <div class="nore-distribution-item">
+                                <div class="nore-distribution-icon">
+                                    <i class="bi bi-truck"></i>
+                                </div>
+
+                                <span class="nore-distribution-number">02</span>
+
+                                <h4>Distributor</h4>
+                            </div>
+
+                            <!-- Agency -->
+                            <div class="nore-distribution-item">
+                                <div class="nore-distribution-icon">
+                                    <i class="bi bi-building"></i>
+                                </div>
+
+                                <span class="nore-distribution-number">03</span>
+
+                                <h4>Agency</h4>
+                            </div>
+
+                            <!-- Corporate Bulk -->
+                            <div class="nore-distribution-item">
+                                <div class="nore-distribution-icon">
+                                    <i class="bi bi-box-seam"></i>
+                                </div>
+
+                                <span class="nore-distribution-number">04</span>
+
+                                <h4>Corporate Bulk</h4>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CTA -->
+                        <!-- <div class="btns-box">
                             <a class="btn-one" href="contact-us.php">
                                 <div class="round"></div>
-                                <span class="txt">Become a Distributor</span>
+                                <span class="txt">Become a Partner</span>
                             </a>
-                        </div>
+                        </div> -->
+
                     </div>
                 </div>
+
+                <div class="btns-box d-block d-md-none">
+                    <a class="btn-one" href="contact-us.php">
+                        <div class="round"></div>
+                        <span class="txt">Become a Partner</span>
+                    </a>
+                </div>
+
             </div>
 
             <!-- Slide : Co-Branding -->
-            <div class="slide">
+            <!-- <div class="slide">
                 <div class="image-layer" style="background-image:url(assets/images/slides/slider-1.jpg)"></div>
-
                 <div class="slider-image">
                     <img class="float-bob-y" src="assets/images/slides/co-brand-bottles.png" alt="Co Branding">
                 </div>
-
                 <div class="round-box">
                     <p>Create.</p>
                     <p>Brand.</p>
                     <p>Connect.</p>
                 </div>
-
                 <div class="auto-container">
                     <div class="content">
                         <div class="top-text">CUSTOMIZED BRANDING SOLUTIONS</div>
@@ -106,7 +190,7 @@ ob_start();
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -308,8 +392,7 @@ ob_start();
 
         <div class="row">
             <div class="col-xl-12">
-                <div class="theme_carousel shop-carousel_1 owl-dot-style1 owl-theme owl-carousel"
-                    data-options='{
+                <div class="theme_carousel shop-carousel_1 owl-dot-style1 owl-theme owl-carousel" data-options='{
                     "loop": true,
                     "margin": 30,
                     "autoHeight": true,
@@ -447,10 +530,8 @@ ob_start();
                     <div class="inner-content text-white">
 
                         <div class="shape">
-                            <img src="assets/images/shape/choose-style1-shape-1.png"
-                                alt="" class="wow fadeInUp"
-                                data-wow-delay="100ms"
-                                data-wow-duration="1500ms">
+                            <img src="assets/images/shape/choose-style1-shape-1.png" alt="" class="wow fadeInUp"
+                                data-wow-delay="100ms" data-wow-duration="1500ms">
                         </div>
 
                         <ul class="clearfix">
@@ -463,7 +544,8 @@ ob_start();
                                 </div>
                                 <div class="text">
                                     <h3>100% Pure</h3>
-                                    <p>Advanced purification ensures every bottle delivers clean, refreshing hydration.</p>
+                                    <p>Advanced purification ensures every bottle delivers clean, refreshing hydration.
+                                    </p>
                                 </div>
                             </li>
 
@@ -491,7 +573,8 @@ ob_start();
                                 </div>
                                 <div class="text">
                                     <h3>High Quality</h3>
-                                    <p>Every bottle undergoes rigorous quality checks for consistent taste and safety.</p>
+                                    <p>Every bottle undergoes rigorous quality checks for consistent taste and safety.
+                                    </p>
                                 </div>
                             </li>
 
@@ -503,7 +586,8 @@ ob_start();
                                 </div>
                                 <div class="text">
                                     <h3>Fast Delivery</h3>
-                                    <p>Timely doorstep delivery for homes, offices, and businesses whenever you need it.</p>
+                                    <p>Timely doorstep delivery for homes, offices, and businesses whenever you need it.
+                                    </p>
                                 </div>
                             </li>
 
@@ -710,7 +794,9 @@ ob_start();
             <h2>Refreshing Every Moment</h2>
 
             <div class="text mt-2">
-                <p>Whether it's your daily routine, office hours, special celebrations, or premium hospitality, NORE delivers pure refreshment wherever life takes you, ensuring trusted quality, lasting freshness, and confidence in every single sip.</p>
+                <p>Whether it's your daily routine, office hours, special celebrations, or premium hospitality, NORE
+                    delivers pure refreshment wherever life takes you, ensuring trusted quality, lasting freshness, and
+                    confidence in every single sip.</p>
             </div>
         </div>
 
@@ -789,7 +875,8 @@ ob_start();
                 </h2>
 
                 <p class="solutions-desc">
-                    Premium packaged drinking water with trusted purity, hygienic bottling, and reliable supply for homes and businesses.
+                    Premium packaged drinking water with trusted purity, hygienic bottling, and reliable supply for
+                    homes and businesses.
                 </p>
 
                 <div class="item-list">
@@ -828,12 +915,11 @@ ob_start();
                             </a>
                         </div>
                     </div>
-                    <a href="tel:917042429355" class="btn-outline-water">Talk To Our Team <i class="bi bi-arrow-right"></i></a>
+                    <a href="tel:917042429355" class="btn-outline-water">Talk To Our Team <i
+                            class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-5 solutions-photo wow fadeInUp"
-                data-wow-delay="100ms"
-                data-wow-duration="1500ms"></div>
+            <div class="col-lg-5 solutions-photo wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms"></div>
         </div>
     </div>
 </section>
@@ -867,7 +953,8 @@ ob_start();
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="theme_carousel testimonials-carousel_1 owl-dot-style1 owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": false, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "1" }, "1200":{ "items" : "1" }}}'>
+                <div class="theme_carousel testimonials-carousel_1 owl-dot-style1 owl-theme owl-carousel"
+                    data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": false, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "1" }, "1200":{ "items" : "1" }}}'>
                     <div class="single-testimonials-style1">
                         <div class="img-box">
                             <img src="assets/images/testimonial/testimonial-v1-1.jpg" alt="">
@@ -886,7 +973,8 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Excellent Customer Service</h3>
-                                <p>From ordering to delivery, everything is smooth. NORE has become our preferred drinking water brand.</p>
+                                <p>From ordering to delivery, everything is smooth. NORE has become our preferred
+                                    drinking water brand.</p>
                                 <h4>Neha Gupta,</h4>
                             </div>
                         </div>
@@ -909,7 +997,8 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Fresh Water Every Time</h3>
-                                <p>NORE always delivers fresh, clean drinking water on time. The quality is excellent and perfect for our family.</p>
+                                <p>NORE always delivers fresh, clean drinking water on time. The quality is excellent
+                                    and perfect for our family.</p>
                                 <h4>Rohit Sharma,</h4>
                             </div>
                         </div>
@@ -932,7 +1021,8 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Reliable Office Supply</h3>
-                                <p>We use NORE for our office, and their doorstep delivery is always quick and hassle-free.</p>
+                                <p>We use NORE for our office, and their doorstep delivery is always quick and
+                                    hassle-free.</p>
                                 <h4>Priya Mehta,</h4>
                             </div>
                         </div>
@@ -955,7 +1045,8 @@ ob_start();
                                     </ul>
                                 </div>
                                 <h3>Pure Taste We Trust</h3>
-                                <p>The water tastes consistently pure, and the bottles are hygienically packed. Highly recommended.</p>
+                                <p>The water tastes consistently pure, and the bottles are hygienically packed. Highly
+                                    recommended.</p>
                                 <h4>Ankit Verma,</h4>
                             </div>
                         </div>
@@ -973,9 +1064,8 @@ ob_start();
     <div class="container">
         <div class="row g-0 align-items-center">
 
-            <div class="col-lg-5 delivery-photo wow fadeInRight"
-                data-wow-delay="100ms"
-                data-wow-duration="1500ms"></div>
+            <div class="col-lg-5 delivery-photo wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+            </div>
 
             <div class="col-lg-7 px-4 px-md-5">
                 <h2 class="delivery-heading">Fresh Water,<br>Delivered to Your Door.</h2>

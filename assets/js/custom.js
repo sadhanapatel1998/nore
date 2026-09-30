@@ -316,7 +316,7 @@ if ($('.banner-carousel').length) {
         nav:true,
         singleItem:true,
         smartSpeed: 500,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout:6000,
         navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
         responsive:{

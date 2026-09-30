@@ -10566,3 +10566,360 @@ select:focus {
         display:none;
     }
 }
+
+
+/* ==========================================
+   NORE DISTRIBUTION OPTIONS
+========================================== */
+
+.nore-distribution-options {
+    display: flex;
+    align-items: stretch;
+    gap: 14px;
+    width: 100%;
+    max-width: 700px;
+    margin: 28px 0 0px;
+}
+
+
+/* ==========================================
+   DISTRIBUTION ITEM
+========================================== */
+
+.nore-distribution-item {
+    position: relative;
+
+    flex: 1;
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 18px 12px 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    border-radius: 18px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.18),
+        rgba(255, 255, 255, 0.06)
+    );
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.35s ease,
+        background 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* Bottom Water Effect */
+
+.nore-distribution-item::after {
+    content: "";
+
+    position: absolute;
+
+    left: -10%;
+    right: -10%;
+    bottom: -25px;
+
+    height: 45px;
+
+    background: rgba(48, 166, 239, 0.45);
+
+    border-radius: 50% 50% 0 0;
+
+    transform: rotate(-3deg);
+
+    opacity: 0.7;
+}
+
+
+/* Hover */
+
+.nore-distribution-item:hover {
+    transform: translateY(-6px);
+
+    background: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.24),
+        rgba(255, 255, 255, 0.09)
+    );
+
+    border-color: rgba(255, 255, 255, 0.55);
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.20);
+}
+
+
+/* ==========================================
+   ICON
+========================================== */
+
+.nore-distribution-icon {
+    position: relative;
+    z-index: 2;
+
+    width: 54px;
+    height: 54px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 12px;
+
+    background: #ffffff;
+
+    border-radius: 13px;
+
+    color: #159ee5;
+
+    font-size: 23px;
+
+    box-shadow:
+        0 0 0 6px rgba(71, 190, 255, 0.08),
+        0 0 22px rgba(71, 190, 255, 0.25);
+}
+
+
+/* ==========================================
+   NUMBER
+========================================== */
+
+.nore-distribution-number {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 5px;
+
+    color: rgba(255, 255, 255, 0.65);
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+
+/* Small Lines Around Number */
+
+.nore-distribution-number::before,
+.nore-distribution-number::after {
+    content: "";
+
+    width: 18px;
+    height: 1px;
+
+    background: rgba(255, 255, 255, 0.35);
+}
+
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.nore-distribution-item h4 {
+    position: relative;
+    z-index: 2;
+
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+
+    text-align: center;
+
+    white-space: nowrap;
+}
+
+
+/* ==========================================
+   LARGE DESKTOP
+========================================== */
+
+@media (min-width: 1200px) {
+
+    .nore-distribution-options {
+        max-width: 700px;
+        gap: 16px;
+    }
+
+    .nore-distribution-item {
+        padding: 20px 15px 23px;
+    }
+
+    .nore-distribution-icon {
+        width: 58px;
+        height: 58px;
+
+        font-size: 24px;
+    }
+
+    .nore-distribution-item h4 {
+        font-size: 17px;
+    }
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 991px) {
+
+    .nore-distribution-options {
+        max-width: 700px;
+        gap: 10px;
+    }
+
+    .nore-distribution-item {
+        padding: 14px 8px 18px;
+    }
+
+    .nore-distribution-icon {
+        width: 45px;
+        height: 45px;
+
+        font-size: 19px;
+    }
+
+    .nore-distribution-item h4 {
+        font-size: 14px;
+    }
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+    .nore-distribution-options {
+        display: none;
+    }
+
+    .nore-distribution-item {
+        padding: 14px 8px 18px;
+
+        border-radius: 14px;
+    }
+
+    .nore-distribution-icon {
+        width: 42px;
+        height: 42px;
+
+        margin-bottom: 9px;
+
+        font-size: 17px;
+
+        border-radius: 10px;
+    }
+
+    .nore-distribution-number {
+        font-size: 8px;
+    }
+
+    .nore-distribution-item h4 {
+        font-size: 13px;
+    }
+    .slide-2-bootle {
+        left: 20%;
+         width: 80% !important;
+}
+.slider-two-image .water-ripple {
+    left: 45% !important;
+}
+}
+
+.slider-two-image {
+    position: relative;
+}
+
+/* Bottle: floating + glow */
+.slide-2-bootle {
+    position: relative;
+    z-index: 2;
+     width: 100% !important;
+    animation:
+        bottleFloat 4s ease-in-out infinite,
+        bottleGlow 3s ease-in-out infinite;
+    
+}
+
+@keyframes bottleFloat {
+    0%, 100% { transform: translateY(0) rotate(-1deg); }
+    50%      { transform: translateY(-18px) rotate(1deg); }
+}
+
+@keyframes bottleGlow {
+    0%, 100% { filter: drop-shadow(0 0 10px rgba(80, 190, 255, 0.35)); }
+    50%      { filter: drop-shadow(0 0 28px rgba(80, 190, 255, 0.85)); }
+}
+
+/* Water ripples under the bottle */
+.slider-two-image .water-ripple {
+    position: absolute;
+    left: 20%;
+    bottom: 4%;                 /* adjust to sit at the bottle base */
+    width: 90%;
+    height: 28px;
+    border: 2px solid rgba(120, 210, 255, 0.7);
+    border-radius: 50%;
+    transform: translateX(-50%) scale(0.3);
+    opacity: 0;
+    z-index: 1;
+    animation: rippleWave 4.5s ease-out infinite;
+}
+.slider-two-image .water-ripple:nth-child(2) { animation-delay: 1.5s; }
+.slider-two-image .water-ripple:nth-child(3) { animation-delay: 3s; }
+
+@keyframes rippleWave {
+    0%   { transform: translateX(-50%) scale(0.3); opacity: 0.9; }
+    100% { transform: translateX(-50%) scale(1.5); opacity: 0; }
+}
+
+/* Rising bubbles */
+.slider-two-image .bubble {
+    position: absolute;
+    bottom: 8%;
+    left: var(--x);
+    width: var(--s);
+    height: var(--s);
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #fff, rgba(140, 215, 255, 0.35));
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    opacity: 0;
+    z-index: 3;
+    animation: bubbleRise var(--d) ease-in infinite;
+    animation-delay: var(--delay);
+}
+
+@keyframes bubbleRise {
+    0%   { transform: translateY(0) translateX(0) scale(0.6); opacity: 0; }
+    15%  { opacity: 0.9; }
+    50%  { transform: translateY(-160px) translateX(10px) scale(1); }
+    100% { transform: translateY(-340px) translateX(-10px) scale(1.1); opacity: 0; }
+}
+
+/* Respect users who prefer less motion */
+@media (prefers-reduced-motion: reduce) {
+    .slider-two-image  .slide-2-bootle, .water-ripple, .bubble { animation: none; }
+}

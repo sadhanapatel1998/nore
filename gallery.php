@@ -36,19 +36,19 @@ ob_start();
 
         <div class="gallery-grid popup-gallery">
 
-            <a href="assets/images/gallery/gallery-1.jpg" class="gallery-item">
+            <!-- <a href="assets/images/gallery/gallery-1.jpg" class="gallery-item">
                 <img src="assets/images/gallery/gallery-1.jpg" alt="">
-            </a>
+            </a> -->
 
-            <a href="assets/images/gallery/gallery-2.jpg" class="gallery-item">
+            <!-- <a href="assets/images/gallery/gallery-2.jpg" class="gallery-item">
                 <img src="assets/images/gallery/gallery-2.jpg" alt="">
             </a>
 
             <a href="assets/images/gallery/gallery-3.jpg" class="gallery-item">
                 <img src="assets/images/gallery/gallery-3.jpg" alt="">
-            </a>
+            </a> -->
 
-            <a href="assets/images/product/specification-250ml.jpg" class="gallery-item">
+            <!-- <a href="assets/images/product/specification-250ml.jpg" class="gallery-item">
                 <img src="assets/images/product/specification-250ml.jpg" alt="">
             </a>
 
@@ -58,7 +58,7 @@ ob_start();
 
             <a href="assets/images/product/specification-1000ml.jpg" class="gallery-item">
                 <img src="assets/images/product/specification-1000ml.jpg" alt="">
-            </a>
+            </a> -->
 
             <a href="assets/images/gallery/gallery-4.jpg" class="gallery-item">
                 <img src="assets/images/gallery/gallery-4.jpg" alt="">
