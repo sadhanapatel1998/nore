@@ -31,14 +31,12 @@
                             </a>
                         </p>
                     </div>
-
                     <div class="space-box1"></div>
 
                     <div class="top-social">
-                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                        <a href="https://fb.watch/v/5FAa3pMCH/" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/nore__official" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://youtu.be/kBiJ11Ra-Kc?si=OP6mmg7IzTf2-TEs" target="_blank"  aria-label="YouTube"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
 

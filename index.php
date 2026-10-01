@@ -198,7 +198,7 @@ ob_start();
 
 <!--Start About Area-->
 <section class="about-style3-area">
-    <div class="fact-counter-style3-area" style="background: none;">
+    <!-- <div class="fact-counter-style3-area" style="background: none;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -208,8 +208,6 @@ ob_start();
                         </div>
 
                         <ul class="clearfix">
-
-                            <!-- Feature 1 -->
                             <li class="single-fact-counter-style2 wow" data-wow-delay="200ms"
                                 data-wow-duration="1500ms">
                                 <div class="icon">
@@ -230,8 +228,6 @@ ob_start();
                                     </div>
                                 </div>
                             </li>
-
-                            <!-- Feature 2 -->
                             <li class="single-fact-counter-style2 wow" data-wow-delay="300ms"
                                 data-wow-duration="1500ms">
                                 <div class="icon">
@@ -252,8 +248,6 @@ ob_start();
                                     </div>
                                 </div>
                             </li>
-
-                            <!-- Feature 3 -->
                             <li class="single-fact-counter-style2 wow" data-wow-delay="400ms"
                                 data-wow-duration="1500ms">
                                 <div class="icon">
@@ -273,8 +267,6 @@ ob_start();
                                     </div>
                                 </div>
                             </li>
-
-                            <!-- Feature 4 -->
                             <li class="single-fact-counter-style2 wow" data-wow-delay="500ms"
                                 data-wow-duration="1500ms">
                                 <div class="icon">
@@ -300,7 +292,7 @@ ob_start();
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="container">
         <div class="row">
             <div class="col-xl-12">

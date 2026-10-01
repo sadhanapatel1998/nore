@@ -106,12 +106,18 @@
                                 <li>Sunday<br>By Appointment</li>
                             </ul>
 
-                            <div class="btn-box">
+                            <div class="footer-social mt-3">
+                                <a href="https://fb.watch/v/5FAa3pMCH/" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/nore__official" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="https://youtu.be/kBiJ11Ra-Kc?si=OP6mmg7IzTf2-TEs" target="_blank" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                            </div>
+
+                            <!-- <div class="btn-box">
                                 <a class="btn-one" href="tel:+917042429355">
                                     <div class="round"></div>
                                     <span class="txt">Call Now</span>
                                 </a>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -138,11 +144,7 @@
                     </p>
                 </div>
 
-                <!-- <ul class="footer-nav pull-right clearfix">
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                </ul> -->
+
 
             </div>
         </div>
