@@ -38,7 +38,7 @@ ob_start();
                             </div>
                         </div>
                         <div class="col-xl-6">
-                            <div class="about-style3-text-box1">
+                            <div class="about-style3-text-box1 mt-4">
                                 <div class="sec-title">
                                     <div class="sub-title">
                                         <h5>About NORE</h5>
@@ -83,7 +83,7 @@ ob_start();
 <!--End About Area-->
 
 <!--Start Fact Counter Area-->
-<section class="fact-counter-style3-area mb-0 pt-80">
+<!-- <section class="fact-counter-style3-area mb-0 pt-80">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -93,8 +93,6 @@ ob_start();
                     </div>
 
                     <ul class="clearfix">
-
-                        <!-- Bottles Delivered -->
                         <li class="single-fact-counter-style2 wow" data-wow-delay="100ms"
                             data-wow-duration="1500ms">
                             <div class="icon">
@@ -117,7 +115,6 @@ ob_start();
                             </div>
                         </li>
 
-                        <!-- Years of Excellence -->
                         <li class="single-fact-counter-style2 wow" data-wow-delay="200ms"
                             data-wow-duration="1500ms">
                             <div class="icon">
@@ -139,8 +136,6 @@ ob_start();
                                 </div>
                             </div>
                         </li>
-
-                        <!-- Happy Customers -->
                         <li class="single-fact-counter-style2 wow" data-wow-delay="300ms"
                             data-wow-duration="1500ms">
                             <div class="icon">
@@ -162,8 +157,6 @@ ob_start();
                                 </div>
                             </div>
                         </li>
-
-                        <!-- Delivery Areas -->
                         <li class="single-fact-counter-style2 wow" data-wow-delay="400ms"
                             data-wow-duration="1500ms">
                             <div class="icon">
@@ -191,7 +184,7 @@ ob_start();
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--End Fact Counter Area-->
 
 <!--Start Mission & Vision Area-->
